@@ -1,0 +1,94 @@
+/*web global styles*/
+.Theme{
+   background-color: #4d2f4d; 
+}
+.link-color{
+    color: rgb(170,230,222);;
+}
+
+.link-color:hover{
+    background-color: rgb(87,87,126);  
+    color:whitesmoke;
+}
+
+.heading-color{
+    color: turquoise;
+}
+
+.logo{
+ height: 70px;
+ width: 70px;
+}
+
+.icon-size{
+    font-size: 20px;
+}
+
+/*settings Menu*/
+.settings{
+    background-color: lavender;
+}
+
+/*font family*/
+.app-font{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*sidebar*/
+.sidebar{
+    height: 100vh;
+}
+
+/*Heading style*/
+.link-size{
+    font-size: 28px;
+    font-weight: 900;
+  }
+
+  .link-l-size{
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .link-sb-style:hover{
+    background-color: rgb(93, 93, 155);
+    border-color: black;
+  }
+ .text-h {
+      line-height: 2px;
+  }
+
+  .thumbnail img{
+      max-height: 150px;
+      min-width: 250px;
+  }
+
+  .price{
+      font-weight: bold;
+      font-size: 16px;
+  }
+
+ .thumbnail .description{
+    color:rgb(139, 130, 130) ;
+  }
+
+  /**
+*Annimate carousel bg-overlay
+*upwards
+*/
+.header-slide-in-up{
+   
+    animation: moveup 5s ; 
+    animation-delay: 1s;
+}
+
+/* Chrome, Safari, Opera */
+@keyframes moveup {
+    from {margin-bottom: 100px;}
+    to {margin-top: 1px;}
+}
+
+@-webkit-keyframes moveup {
+    from {margin-bottom: 100px;}
+    to {margin-top: 1px;}
+}

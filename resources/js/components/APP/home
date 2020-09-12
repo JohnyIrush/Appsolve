@@ -1,0 +1,911 @@
+<div id="home" class="mt-1 Theme">
+    <!--header @mouseover="$Global.Displaysubscribe()"-->
+ <div id="home_header" class="Theme container col-sm-12 col-md-12 col-xs-12">
+   <div class="row justify-content-center mt-1">
+     <div class="col-sm-12 col-md-12 col-xs-12">
+       <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+         <div class="carousel-inner">
+           <div class="carousel-item img-carousel-height active" data-interval="10000">
+             <img src="Images/binary.jpg" class="d-block img-height w-100" alt="...">
+           </div>
+           <div class="carousel-item img-carousel-height" data-interval="2000">
+             <img src="Images/cog-wheels.jpg" class="d-block img-height w-100" alt="...">
+           </div>
+           <div class="carousel-item img-carousel-height">
+             <img src="Images/computer.jpg" class="d-block img-height w-100" alt="...">
+           </div>
+         </div>
+       </div>         
+     </div>          
+  </div>
+  <div class="row p-2 justify-content-center">
+    <div id="seo-header" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+        <div class="row justify-content-center">
+            <div  class="col text-center heading-slide-in">
+                <h1  class="heading-style heading-color">Online cyber Next to you</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-5">
+          <p class="text-center font-size text-white  font-family">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium aspernatur perferendis nesciunt perspiciatis ratione vel nihil, eveniet nisi enim repudiandae facilis magnam at quasi similique quas, aliquam optio! Illo, culpa.
+          </p>               
+         </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+             <router-link to="/solutions" type="button" class="btn btn-outline-success btn-lg text-white">Get Online Help</router-link>
+            </div>
+        </div>
+    </div>    
+  </div>
+ </div> 
+    <!--business advert call to action-->
+ <div id="home_advert" class="col-sm-12 col-md-12 col-xs-12 mt-5 section-box">
+     <div class="row">
+         <div class="col-xs col-sm col-md"> <h2 class="text-center heading-style heading-color"><span> <!--<i class="fa fa-cogs" aria-hidden="true"></i>-->  Quick solutions</span> </h2> </div>
+     </div>
+     <div class="row">
+       <div class="col-xs col-sm col-md text-white"> 
+           <div class="row justify-content-center">
+               <div class="col-sm-12 col-md-12 col-xs-12">
+                 <p class="p-2 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam pariatur quae nam quaerat consequuntur illum nesciunt modi quam deleniti placeat eos, cumque cum voluptas officiis omnis, voluptate sequi hic tempora maiores. Non voluptates porro adipisci nostrum suscipit iusto saepe asperiores explicabo temporibus dicta quibusdam, aperiam nemo modi eaque ullam provident soluta corrupti aut. Perferendis voluptas impedit omnis sint vero autem veniam assumenda, sed quidem, blanditiis debitis ipsam deleniti iste at numquam! Facere adipisci dicta dignissimos id laudantium, cumque aut modi? Ullam in non, amet deserunt fugiat ipsum dolorum. Ipsa saepe nihil inventore eveniet officia totam repellendus aspernatur velit praesentium ut?</p>                   
+               </div>
+           </div>
+        </div>
+       <div class="col-xs col-sm col-md">
+           <img src="Images/question-mark.jpg" class="img-fluid p-2 img-rounded">
+       </div>
+       <div class="col-sm-12 col-md-12 col-xs-12 mb-3 text-center">
+         <router-link to="/solutions" type="button" class="btn btn-outline-primary"> <span> <!--<i class="fa fa-desktop text-center" aria-hidden="true"></i>-->  Fix your computer problems</span></router-link>
+       </div>                
+     </div>
+ </div> 
+    <!--Web developer self advert-->
+  <div class="col-sm-12 col-md-12 col-xs-12 mt-5 section-box">
+     <div class="row">
+         <div class="col-sm-12 col-md-12 col-xs-12"> <h3 class="text-center heading-style heading-color"><span> <!--<i class="fas fa-project-diagram    "></i>-->  Web Application</span> </h3> </div>
+     </div>
+     <div class="row">
+       <div class="col-xs col-sm col-md">
+           <img src="Images/money.jpg" class="img-fluid p-2 img-rounded">
+       </div>         
+       <div class="col-xs col-sm col-md text-white"> 
+           <div class="row justify-content-center">
+               <div class="col-sm-12 col-md-12 col-xs-12">
+                 <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ut impedit repellat nulla nam temporibus nostrum reprehenderit labore odio consequatur ipsum praesentium quae corporis eius saepe dolore deserunt incidunt a, totam natus accusamus voluptatibus nesciunt pariatur officiis? Eius vitae accusantium fuga facilis cupiditate temporibus optio accusamus suscipit repellendus, minima rem unde ullam deleniti sapiente neque laboriosam quibusdam recusandae tempora expedita debitis repellat perferendis voluptates molestias corporis! Adipisci laboriosam modi voluptas tempora est ipsum officia amet, nostrum velit accusamus ipsa tempore mollitia molestias nulla doloribus quidem iure numquam eos. Placeat aliquam illum obcaecati itaque maxime sequi corrupti? Iure fugiat velit delectus.</p>                   
+               </div>
+           </div>
+        </div>         
+     </div>
+     <div    class="row">
+       <div class="col-sm-12 col-md-12 col-xs-12">
+         <div class="row">
+            <div class="col-sm-12 col-md-12 col-xs-12">
+              <h4 class="heading-color text-center">Our tools</h4>
+            </div>
+         </div>
+         <div  class="col-sm-12 col-md-12 col-xs-12">
+           <div class="row">
+              <div  class="col-sm col-md col-xs">
+                  <div class="row">
+                      <div class="col text-center">
+                        <span> <!--<i class="fab fa-wordpress icon-size link-color" aria-hidden="true"></i>--> </span>
+                      </div>
+                  </div>
+                 <div class="row">
+                     <div class="col text-center">
+                       <p class="text-center text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
+                     </div>
+                 </div>
+              </div>
+              <div class="col-md-12 col-xs-12 col-sm-12 col-lg-3  ">
+                  <div class="row">
+                      <div class="col text-center">
+                        <span> <!--<i class="fab fa-laravel icon-size link-color" aria-hidden="true"></i>--> </span>
+                      </div>
+                  </div>
+                 <div class="row">
+                     <div class="col text-center">
+                       <p class="text-center text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
+                     </div>
+                 </div>
+              </div>  
+              <div class="col-sm-12 col-lg-3  ">
+                  <div class="row">
+                      <div class="col text-center">
+                        <span> <!--<i class="fab fa-bootstrap icon-size link-color" aria-hidden="true"></i>--> </span>
+                      </div>
+                  </div>
+                 <div class="row">
+                     <div class="col text-center">
+                       <p class="text-center text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
+                     </div>
+                 </div>
+              </div> 
+              <div class="col-sm-12 col-lg-3  ">
+                  <div class="row">
+                      <div class="col text-center">
+                        <span> <!--<i class="fab fa-vuejs icon-size link-color" aria-hidden="true"></i>--> </span>
+                      </div>
+                  </div>
+                 <div class="row">
+                     <div class="col text-center">
+                       <p class="text-center text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
+                     </div>
+                 </div>
+              </div> 
+              <div class="col-sm-12 col-md-12 col-xs-12 m-3 text-center">
+                <router-link to="/apps" type="button" class="btn btn-outline-success"> <span> <!--<i class="fas fa-archive    "></i>-->  Get a web application</span></router-link>
+              </div>                                                                   
+           </div>                       
+         </div>
+       </div>        
+     </div>
+ </div>
+   <!--Our clients--> 
+    <div class="col-sm-12 col-md-12 col-xs-12 mt-5 section-box">
+      <div class="row justify-content-center">
+          <div class="col-sm col-md col-xs"> <h5 class="text-center heading-style heading-color">Our clients</h5></div>
+      </div>
+      <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-12 col-xs-12 col-lg-4">
+             <div class="row">
+                 <div class="col-sm col-md col-xs text-center">
+                     <h1 class="heading-color"><span>  <!--<i class="fab fa-wordpress"></i>--> ordspress </span></h1>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-sm col-md col-xs text-center">
+                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloremque, odit eaque architecto provident beatae dignissimos. Qui unde impedit fugiat, ratione minus dolor tempore, aliquam odit magni est illo! Fuga.</p>
+                 </div>
+             </div>             
+          </div>
+          <div class="col-sm-12 col-md-12 col-xs-12 col-lg-4">
+             <div class="row">
+                 <div class="col-sm col-md col-xs text-center">
+                     <h1 class="heading-color"><span> <!--<i class="fab fa-google"></i>--> oogle </span></h1>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-sm col-md col-xs text-center">
+                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloremque, odit eaque architecto provident beatae dignissimos. Qui unde impedit fugiat, ratione minus dolor tempore, aliquam odit magni est illo! Fuga.</p>
+                 </div>
+             </div>             
+          </div>
+          <div class="col-sm-12 col-md-12 col-xs-12 col-lg-4">
+             <div class="row">
+                 <div class="col-sm col-md col-xs text-center">
+                     <h1 class="heading-color"><span> <!--<i class="fa fa-users"></i>--> Web entreprenuers </span></h1>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-sm col-md col-xs text-center">
+                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloremque, odit eaque architecto provident beatae dignissimos. Qui unde impedit fugiat, ratione minus dolor tempore, aliquam odit magni est illo! Fuga.</p>
+                 </div>
+             </div>             
+          </div>
+        </div>
+       </div>
+         <!--Team-->
+         <div class="col-sm-12 col-md-12 col-xs-12 mt-5 section-box">
+          <div class="col-sm-12 col-md-12 col-xs-12">
+            <div class="row justify-content-center">
+               <h1 class="heading-color heading-style">Our Team</h1>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-sm-12 col-md-12 col-xs-12 col-lg-8">
+                <div class="row justify-content-center">
+                  <img src="images/Passport.jpg" alt="" class="image-fluid  img-thumbnail text-center">
+                </div>
+                <div class="row justify-content-center">
+                  <h3 class="heading-color">John Irungu</h3>
+                </div>
+                <div class="row justify-content-center">
+                  <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nulla veritatis ex pariatur, placeat nobis saepe voluptatem! Placeat, voluptatem dolorem!</p>
+                </div>
+                <div class="row justify-content-center">
+                  <h1 class="heading-color">Follow</h1>
+                </div>
+                <div class="row justify-content-center">
+                  <a href="#" class="btn link-color">
+                  <!--<i class="fab fa-linkedin icon-size m-2" aria-hidden="true"></i>-->
+                  </a>
+                  <a href="#" class="btn link-color">
+                    <!--<i class="fab fa-google-plus icon-size m-2"></i>-->
+                  </a>
+                  <a href="#" class="btn link-color">
+                    <!--<i class="fab fa-pinterest icon-size m-2"></i>-->
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+         <!--Team-->                              
+</div>
+
+
+
+ <!--header @mouseover="$Global.Displaysubscribe()"v-html="home"-->
+ <div id="home_header" class="Theme container col-sm-12 col-md-12 col-xs-12">
+   <div class="row justify-content-center mt-1">
+     <div class="col-sm-12 col-md-12 col-xs-12">
+       <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+         <div class="carousel-inner">
+           <div class="carousel-item img-carousel-height active" data-interval="10000">
+             <img src="Images/binary.jpg" class="d-block img-height w-100" alt="...">
+           </div>
+           <div class="carousel-item img-carousel-height" data-interval="2000">
+             <img src="Images/cog-wheels.jpg" class="d-block img-height w-100" alt="...">
+           </div>
+           <div class="carousel-item img-carousel-height">
+             <img src="Images/computer.jpg" class="d-block img-height w-100" alt="...">
+           </div>
+         </div>
+       </div>         
+     </div>          
+  </div>
+  <div class="row p-2 justify-content-center">
+    <div id="seo-header" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+        <div class="row justify-content-center">
+            <div  class="col text-center heading-slide-in">
+                <h1  class="heading-style heading-color">Online cyber Next to you</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-5">
+          <p class="text-center font-size text-white  font-family">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium aspernatur perferendis nesciunt perspiciatis ratione vel nihil, eveniet nisi enim repudiandae facilis magnam at quasi similique quas, aliquam optio! Illo, culpa.
+          </p>               
+         </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+             <router-link to="/solutions" type="button" class="btn btn-outline-success btn-lg text-white">Get Online Help</router-link>
+            </div>
+        </div>
+    </div>    
+  </div>
+ </div> 
+    <!--business advert call to action-->
+ <div id="home_advert" class="col-sm-12 col-md-12 col-xs-12 mt-5 section-box">
+     <div class="row">
+         <div class="col-xs col-sm col-md"> <h2 class="text-center heading-style heading-color"><span> <!--<i class="fa fa-cogs" aria-hidden="true"></i>-->  Quick solutions</span> </h2> </div>
+     </div>
+     <div class="row">
+       <div class="col-xs col-sm col-md text-white"> 
+           <div class="row justify-content-center">
+               <div class="col-sm-12 col-md-12 col-xs-12">
+                 <p class="p-2 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam pariatur quae nam quaerat consequuntur illum nesciunt modi quam deleniti placeat eos, cumque cum voluptas officiis omnis, voluptate sequi hic tempora maiores. Non voluptates porro adipisci nostrum suscipit iusto saepe asperiores explicabo temporibus dicta quibusdam, aperiam nemo modi eaque ullam provident soluta corrupti aut. Perferendis voluptas impedit omnis sint vero autem veniam assumenda, sed quidem, blanditiis debitis ipsam deleniti iste at numquam! Facere adipisci dicta dignissimos id laudantium, cumque aut modi? Ullam in non, amet deserunt fugiat ipsum dolorum. Ipsa saepe nihil inventore eveniet officia totam repellendus aspernatur velit praesentium ut?</p>                   
+               </div>
+           </div>
+        </div>
+       <div class="col-xs col-sm col-md">
+           <img src="Images/question-mark.jpg" class="img-fluid p-2 img-rounded">
+       </div>
+       <div class="col-sm-12 col-md-12 col-xs-12 mb-3 text-center">
+         <router-link to="/solutions" type="button" class="btn btn-outline-primary"> <span> <!--<i class="fa fa-desktop text-center" aria-hidden="true"></i>-->  Fix your computer problems</span></router-link>
+       </div>                
+     </div>
+ </div> 
+    <!--Web developer self advert-->
+  <div class="col-sm-12 col-md-12 col-xs-12 mt-5 section-box">
+     <div class="row">
+         <div class="col-sm-12 col-md-12 col-xs-12"> <h3 class="text-center heading-style heading-color"><span> <!--<i class="fas fa-project-diagram    "></i>-->  Web Application</span> </h3> </div>
+     </div>
+     <div class="row">
+       <div class="col-xs col-sm col-md">
+           <img src="Images/money.jpg" class="img-fluid p-2 img-rounded">
+       </div>         
+       <div class="col-xs col-sm col-md text-white"> 
+           <div class="row justify-content-center">
+               <div class="col-sm-12 col-md-12 col-xs-12">
+                 <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ut impedit repellat nulla nam temporibus nostrum reprehenderit labore odio consequatur ipsum praesentium quae corporis eius saepe dolore deserunt incidunt a, totam natus accusamus voluptatibus nesciunt pariatur officiis? Eius vitae accusantium fuga facilis cupiditate temporibus optio accusamus suscipit repellendus, minima rem unde ullam deleniti sapiente neque laboriosam quibusdam recusandae tempora expedita debitis repellat perferendis voluptates molestias corporis! Adipisci laboriosam modi voluptas tempora est ipsum officia amet, nostrum velit accusamus ipsa tempore mollitia molestias nulla doloribus quidem iure numquam eos. Placeat aliquam illum obcaecati itaque maxime sequi corrupti? Iure fugiat velit delectus.</p>                   
+               </div>
+           </div>
+        </div>         
+     </div>
+     <div    class="row">
+       <div class="col-sm-12 col-md-12 col-xs-12">
+         <div class="row">
+            <div class="col-sm-12 col-md-12 col-xs-12">
+              <h4 class="heading-color text-center">Our tools</h4>
+            </div>
+         </div>
+         <div  class="col-sm-12 col-md-12 col-xs-12">
+           <div class="row">
+              <div  class="col-sm col-md col-xs">
+                  <div class="row">
+                      <div class="col text-center">
+                        <span> <!--<i class="fab fa-wordpress icon-size link-color" aria-hidden="true"></i>--> </span>
+                      </div>
+                  </div>
+                 <div class="row">
+                     <div class="col text-center">
+                       <p class="text-center text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
+                     </div>
+                 </div>
+              </div>
+              <div class="col-md-12 col-xs-12 col-sm-12 col-lg-3  ">
+                  <div class="row">
+                      <div class="col text-center">
+                        <span> <!--<i class="fab fa-laravel icon-size link-color" aria-hidden="true"></i>--> </span>
+                      </div>
+                  </div>
+                 <div class="row">
+                     <div class="col text-center">
+                       <p class="text-center text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
+                     </div>
+                 </div>
+              </div>  
+              <div class="col-sm-12 col-lg-3  ">
+                  <div class="row">
+                      <div class="col text-center">
+                        <span> <!--<i class="fab fa-bootstrap icon-size link-color" aria-hidden="true"></i>--> </span>
+                      </div>
+                  </div>
+                 <div class="row">
+                     <div class="col text-center">
+                       <p class="text-center text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
+                     </div>
+                 </div>
+              </div> 
+              <div class="col-sm-12 col-lg-3  ">
+                  <div class="row">
+                      <div class="col text-center">
+                        <span> <!--<i class="fab fa-vuejs icon-size link-color" aria-hidden="true"></i>--> </span>
+                      </div>
+                  </div>
+                 <div class="row">
+                     <div class="col text-center">
+                       <p class="text-center text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
+                     </div>
+                 </div>
+              </div> 
+              <div class="col-sm-12 col-md-12 col-xs-12 m-3 text-center">
+                <router-link to="/apps" type="button" class="btn btn-outline-success"> <span> <!--<i class="fas fa-archive    "></i>-->  Get a web application</span></router-link>
+              </div>                                                                   
+           </div>                       
+         </div>
+       </div>        
+     </div>
+ </div>
+   <!--Our clients--> 
+    <div class="col-sm-12 col-md-12 col-xs-12 mt-5 section-box">
+      <div class="row justify-content-center">
+          <div class="col-sm col-md col-xs"> <h5 class="text-center heading-style heading-color">Our clients</h5></div>
+      </div>
+      <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-12 col-xs-12 col-lg-4">
+             <div class="row">
+                 <div class="col-sm col-md col-xs text-center">
+                     <h1 class="heading-color"><span>  <!--<i class="fab fa-wordpress"></i>--> ordspress </span></h1>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-sm col-md col-xs text-center">
+                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloremque, odit eaque architecto provident beatae dignissimos. Qui unde impedit fugiat, ratione minus dolor tempore, aliquam odit magni est illo! Fuga.</p>
+                 </div>
+             </div>             
+          </div>
+          <div class="col-sm-12 col-md-12 col-xs-12 col-lg-4">
+             <div class="row">
+                 <div class="col-sm col-md col-xs text-center">
+                     <h1 class="heading-color"><span> <!--<i class="fab fa-google"></i>--> oogle </span></h1>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-sm col-md col-xs text-center">
+                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloremque, odit eaque architecto provident beatae dignissimos. Qui unde impedit fugiat, ratione minus dolor tempore, aliquam odit magni est illo! Fuga.</p>
+                 </div>
+             </div>             
+          </div>
+          <div class="col-sm-12 col-md-12 col-xs-12 col-lg-4">
+             <div class="row">
+                 <div class="col-sm col-md col-xs text-center">
+                     <h1 class="heading-color"><span> <!--<i class="fa fa-users"></i>--> Web entreprenuers </span></h1>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-sm col-md col-xs text-center">
+                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloremque, odit eaque architecto provident beatae dignissimos. Qui unde impedit fugiat, ratione minus dolor tempore, aliquam odit magni est illo! Fuga.</p>
+                 </div>
+             </div>             
+          </div>
+        </div>
+       </div>
+         <!--Team-->
+         <div class="col-sm-12 col-md-12 col-xs-12 mt-5 section-box">
+          <div class="col-sm-12 col-md-12 col-xs-12">
+            <div class="row justify-content-center">
+               <h1 class="heading-color heading-style">Our Team</h1>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-sm-12 col-md-12 col-xs-12 col-lg-8">
+                <div class="row justify-content-center">
+                  <img src="images/Passport.jpg" alt="" class="image-fluid  img-thumbnail text-center">
+                </div>
+                <div class="row justify-content-center">
+                  <h3 class="heading-color">John Irungu</h3>
+                </div>
+                <div class="row justify-content-center">
+                  <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nulla veritatis ex pariatur, placeat nobis saepe voluptatem! Placeat, voluptatem dolorem!</p>
+                </div>
+                <div class="row justify-content-center">
+                  <h1 class="heading-color">Follow</h1>
+                </div>
+                <div class="row justify-content-center">
+                  <a href="#" class="btn link-color">
+                  <!--<i class="fab fa-linkedin icon-size m-2" aria-hidden="true"></i>-->
+                  </a>
+                  <a href="#" class="btn link-color">
+                    <!--<i class="fab fa-google-plus icon-size m-2"></i>-->
+                  </a>
+                  <a href="#" class="btn link-color">
+                    <!--<i class="fab fa-pinterest icon-size m-2"></i>-->
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+         <!--Team-->  
+
+
+
+         //////apps header
+                <div class="row justify-content-center">
+         <div class="col-sm-12">
+           <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+             <div class="carousel-inner">
+               <div class="carousel-item img-carousel-height active" data-interval="10000">
+                 <img src="Images/networkworld.jpg" class="d-block img-height w-100" alt="...">
+               </div>
+               <div class="carousel-item img-carousel-height" data-interval="2000">
+                 <img src="Images/leadingsolutions.jpg" class="d-block img-height w-100" alt="...">
+               </div>
+               <div class="carousel-item img-carousel-height">
+                 <img src="Images/security.jpg" class="d-block img-height w-100" alt="...">
+               </div>
+             </div>
+           </div>         
+         </div>          
+      </div>
+      <div class="row justify-content-center">
+        <div id="seo-header" class="col-sm-12">
+            <div class="row justify-content-center">
+                <div class="col text-center">
+                    <h1 class="heading-color heading-style"> <!--<i class="fab fa-android"></i>-->  Get a web application</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+             <div class="col-sm-10 mt-5">
+              <p class="text-center font-size text-white">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facilis pariatur quibusdam rerum ipsum facere nemo sit incidunt quaerat in. Veniam id atque nulla ipsa harum aliquid fugiat est tempore.
+              </p>               
+             </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-4 text-center">
+                 <button type="button" class="btn btn-outline-success btn-lg text-white">Get A web application</button>
+                </div>
+            </div>
+        </div>    
+      </div>
+
+      //about
+ <div id="about" class="Theme m-1">
+     <!--header-->
+   <div class="col-sm-12">
+    <div class="row justify-content-center">
+     <div class="col-sm-12">
+       <div class="img-carousel-height">
+         <img src="Images/imprint.jpg" class="d-block img-height w-100" alt="...">
+       </div>        
+     </div>          
+    </div>
+    <div class="row justify-content-center">
+      <div id="header-bg-overlay" class="col-sm-12">
+         <div class="row mt-5">
+             <div class="col text-center">
+                 <h1 class="heading-color"> <span> About Us</span> </h1>
+             </div>
+         </div>
+         <div class="row justify-content-center mt-5">
+             <div class="col-sm-10">
+                 <p class="text-white text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ducimus, magni eaque nemo voluptas dolorum cumque ipsum aperiam ea optio omnis beatae veritatis sequi excepturi. </p>
+             </div>
+         </div>
+      </div> 
+    </div>       
+   </div> 
+   <!--About Us-->
+   <div class="col-sm-12 mt-2 mb-2">
+      <div class="row-justify-content-center">
+          <div class="col-sm-12">
+              <!--about-->
+              <div class="row">
+                  <div class="col">
+                      <h2 class="heading-color text-center">About Us</h2>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-5">
+                    <div class="card Theme p-2">
+                        <img src="Images/betterlife.jpg" class="img-fluid" alt="" srcset="">
+                    </div>
+                </div>                                 
+                  <div class="col-sm">
+                      <p class="text-white">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae veniam, reprehenderit, laboriosam modi ex, dolorum laborum in sequi distinctio a at fugit quisquam cumque dolores vero ea quam beatae recusandae! Impedit asperiores deleniti quis incidunt voluptate aliquid ut aperiam quisquam debitis quod ullam voluptates rerum molestiae delectus, libero placeat fugiat consequatur nesciunt quo? Consequatur iste odit asperiores non consequuntur eligendi praesentium, veniam vitae earum ex ipsam? Non inventore voluptatibus quos, unde et debitis consequuntur, quod fugiat magnam voluptas minus hic corporis maxime adipisci laborum quas vel molestiae excepturi aperiam vitae ducimus illo obcaecati. Consequatur dicta eligendi iste laborum? Quis laudantium distinctio labore reprehenderit eum odio quia corporis optio corrupti itaque illo, nihil minima doloremque dolorum dolor dignissimos animi magni officiis iste natus sequi in esse eaque! Officiis provident aut distinctio, eaque rerum soluta vero quam adipisci temporibus voluptatum illum illo error, necessitatibus sed nam fugit praesentium architecto earum facere libero?
+                      </p>
+                  </div>   
+              </div> 
+              <!--Our Mission-->
+              <div class="row">
+                  <div class="col">
+                      <h2 class="heading-color text-center">Our mission</h2>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-5">
+                    <div class="card Theme p-2">
+                        <img src="Images/vision.jpg" class="img-fluid" alt="" srcset="">
+                    </div>
+                </div>                                 
+                  <div class="col-sm">
+                      <p class="text-white">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae veniam, reprehenderit, laboriosam modi ex, dolorum laborum in sequi distinctio a at fugit quisquam cumque dolores vero ea quam beatae recusandae! Impedit asperiores deleniti quis incidunt voluptate aliquid ut aperiam quisquam debitis quod ullam voluptates rerum molestiae delectus, libero placeat fugiat consequatur nesciunt quo? Consequatur iste odit asperiores non consequuntur eligendi praesentium, veniam vitae earum ex ipsam? Non inventore voluptatibus quos, unde et debitis consequuntur, quod fugiat magnam voluptas minus hic corporis maxime adipisci laborum quas vel molestiae excepturi aperiam vitae ducimus illo obcaecati. Consequatur dicta eligendi iste laborum? Quis laudantium distinctio labore reprehenderit eum odio quia corporis optio corrupti itaque illo, nihil minima doloremque dolorum dolor dignissimos animi magni officiis iste natus sequi in esse eaque! Officiis provident aut distinctio, eaque rerum soluta vero quam adipisci temporibus voluptatum illum illo error, necessitatibus sed nam fugit praesentium architecto earum facere libero?
+                      </p>
+                  </div>   
+              </div>                                
+          </div>
+      </div>
+   </div>
+ </div>
+
+ //about
+      <!--header-->
+   <div class="col-sm-12">
+    <div class="row justify-content-center">
+     <div class="col-sm-12">
+       <div class="img-carousel-height">
+         <img src="Images/imprint.jpg" class="d-block img-height w-100" alt="...">
+       </div>        
+     </div>          
+    </div>
+    <div class="row justify-content-center">
+      <div id="header-bg-overlay" class="col-sm-12">
+         <div class="row mt-5">
+             <div class="col text-center">
+                 <h1 class="heading-color"> <span> About Us</span> </h1>
+             </div>
+         </div>
+         <div class="row justify-content-center mt-5">
+             <div class="col-sm-10">
+                 <p class="text-white text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ducimus, magni eaque nemo voluptas dolorum cumque ipsum aperiam ea optio omnis beatae veritatis sequi excepturi. </p>
+             </div>
+         </div>
+      </div> 
+    </div>       
+   </div> 
+   <!--About Us-->
+   <div class="col-sm-12 mt-2 mb-2">
+      <div class="row-justify-content-center">
+          <div class="col-sm-12">
+              <!--about-->
+              <div class="row">
+                  <div class="col">
+                      <h2 class="heading-color text-center">About Us</h2>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-5">
+                    <div class="card Theme p-2">
+                        <img src="Images/betterlife.jpg" class="img-fluid" alt="" srcset="">
+                    </div>
+                </div>                                 
+                  <div class="col-sm">
+                      <p class="text-white">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae veniam, reprehenderit, laboriosam modi ex, dolorum laborum in sequi distinctio a at fugit quisquam cumque dolores vero ea quam beatae recusandae! Impedit asperiores deleniti quis incidunt voluptate aliquid ut aperiam quisquam debitis quod ullam voluptates rerum molestiae delectus, libero placeat fugiat consequatur nesciunt quo? Consequatur iste odit asperiores non consequuntur eligendi praesentium, veniam vitae earum ex ipsam? Non inventore voluptatibus quos, unde et debitis consequuntur, quod fugiat magnam voluptas minus hic corporis maxime adipisci laborum quas vel molestiae excepturi aperiam vitae ducimus illo obcaecati. Consequatur dicta eligendi iste laborum? Quis laudantium distinctio labore reprehenderit eum odio quia corporis optio corrupti itaque illo, nihil minima doloremque dolorum dolor dignissimos animi magni officiis iste natus sequi in esse eaque! Officiis provident aut distinctio, eaque rerum soluta vero quam adipisci temporibus voluptatum illum illo error, necessitatibus sed nam fugit praesentium architecto earum facere libero?
+                      </p>
+                  </div>   
+              </div> 
+              <!--Our Mission-->
+              <div class="row">
+                  <div class="col">
+                      <h2 class="heading-color text-center">Our mission</h2>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-5">
+                    <div class="card Theme p-2">
+                        <img src="Images/vision.jpg" class="img-fluid" alt="" srcset="">
+                    </div>
+                </div>                                 
+                  <div class="col-sm">
+                      <p class="text-white">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae veniam, reprehenderit, laboriosam modi ex, dolorum laborum in sequi distinctio a at fugit quisquam cumque dolores vero ea quam beatae recusandae! Impedit asperiores deleniti quis incidunt voluptate aliquid ut aperiam quisquam debitis quod ullam voluptates rerum molestiae delectus, libero placeat fugiat consequatur nesciunt quo? Consequatur iste odit asperiores non consequuntur eligendi praesentium, veniam vitae earum ex ipsam? Non inventore voluptatibus quos, unde et debitis consequuntur, quod fugiat magnam voluptas minus hic corporis maxime adipisci laborum quas vel molestiae excepturi aperiam vitae ducimus illo obcaecati. Consequatur dicta eligendi iste laborum? Quis laudantium distinctio labore reprehenderit eum odio quia corporis optio corrupti itaque illo, nihil minima doloremque dolorum dolor dignissimos animi magni officiis iste natus sequi in esse eaque! Officiis provident aut distinctio, eaque rerum soluta vero quam adipisci temporibus voluptatum illum illo error, necessitatibus sed nam fugit praesentium architecto earum facere libero?
+                      </p>
+                  </div>   
+              </div>                                
+          </div>
+      </div>
+   </div>
+
+   ///service
+
+    <div id="service" class="Theme m-1">
+     <!--header-->
+   <div class="col-sm-12">
+    <div class="row justify-content-center">
+     <div class="col-sm-12">
+       <div class="img-carousel-height">
+         <img src="Images/cyber-security.jpg" class="d-block img-height w-100" alt="...">
+       </div>        
+     </div>          
+    </div>
+    <div class="row justify-content-center">
+      <div id="header-bg-overlay" class="col-sm-12">
+         <div class="row mt-5">
+             <div class="col text-center">
+                 <h1 class="heading-color"> <span> <!--<i class="fa fa-cogs" aria-hidden="true"></i>--> Our Services </span> </h1>
+             </div>
+         </div>
+         <div class="row justify-content-center mt-5">
+             <div class="col-sm-10">
+                 <p class="text-white text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ducimus, magni eaque nemo voluptas dolorum cumque ipsum aperiam ea optio omnis beatae veritatis sequi excepturi. </p>
+             </div>
+         </div>
+      </div> 
+    </div>       
+   </div> 
+   <!--Our Services-->
+   <div class="col-sm-12 mt-2 mb-2 ">
+      <div class="row-justify-content-center">
+          <div class="col-sm-12 mb-2 mt-2">
+              <div class="row"> 
+                  <div class="col-sm">
+                      <h2 class="text-center heading-color"> <!--<i class="fa fa-cogs" aria-hidden="true"></i>-->  Computer Solutions</h2>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm">
+                        <div class="card Theme p-1">
+                         <img src="/Images/computer.jpg" class="img-fluid" alt="" srcset="">
+                        </div>                          
+                      </div>
+                      <div class="col-sm">
+                          <p class="text-white">
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam maiores velit dignissimos, nisi debitis eum enim sunt perspiciatis aliquam dolore repellendus deleniti atque nemo voluptatem necessitatibus consectetur nobis tempora id reprehenderit rerum repellat non quia voluptates mollitia? Ullam dolorum doloremque facere hic magni deleniti magnam velit veniam. Necessitatibus repellat itaque, hic rerum quo fugit obcaecati ab atque quod esse eum enim praesentium distinctio error recusandae nam dignissimos magnam cum minima quidem consequatur consectetur voluptatum. Ea quod in consequuntur nesciunt velit voluptas quisquam totam architecto deleniti et, non placeat eius laborum, quos sit sequi doloribus a itaque asperiores ratione mollitia repellendus.
+                          </p>
+                      </div>
+                  </div>
+                  <!--What we Do-->
+                  <div class="col-sm m-2 section-box">
+                      <div class="row text-center">
+                          <div class="col text-center">
+                             <h2 class="heading-color">What We Do <!-- <i class="fa fa-question" aria-hidden="true"></i>--> </h2>
+                          </div>
+                      </div>
+                      <!--Research-->
+                      <div class="row m-3">
+                          <div class="col-sm">
+                             <h4 class="heading-color text-center"> <!--<i class="fas fa-desktop    "></i>-->  Research computer Problems</h4>
+                          </div>
+                      </div>
+                      <div class="row m-3">
+                          <div class="col-sm-9 offset-sm-2">
+                              <div class="card Theme p-2">
+                                  <p class="text-white text-center">
+                                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum est dolor corporis atque inventore vero reprehenderit porro aliquam tenetur enim, amet fugit repudiandae non odio facere molestiae iure nesciunt magnam.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <!--Guides-->
+                      <div class="row m-3">
+                          <div class="col-sm">
+                             <h4 class="heading-color text-center"> <!--<i class="fas fa-procedures    "></i>-->  We guide you on how to fix The problems</h4>
+                          </div>
+                      </div>                      
+                      <div class="row m-3">
+                          <div class="col-sm-9 offset-sm-2">
+                              <div class="card Theme p-2">
+                                  <p class="text-white text-center">
+                                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum est dolor corporis atque inventore vero reprehenderit porro aliquam tenetur enim, amet fugit repudiandae non odio facere molestiae iure nesciunt magnam.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>                      
+                  </div>
+              </div>
+              <div class="row mb-2 mt-2 ">
+                  <div class="col-sm">
+                      <h2 class="text-center heading-color"> <!--<i class="fas fa-project-diagram    "></i>-->  Sofware Development</h2>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm">
+                          <div class="card Theme p-1">
+                           <img src="/Images/keyboard.jpg" class="img-fluid" alt="" srcset="">
+                          </div>
+                      </div>
+                      <div class="col-sm">
+                          <p class="text-white">
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam maiores velit dignissimos, nisi debitis eum enim sunt perspiciatis aliquam dolore repellendus deleniti atque nemo voluptatem necessitatibus consectetur nobis tempora id reprehenderit rerum repellat non quia voluptates mollitia? Ullam dolorum doloremque facere hic magni deleniti magnam velit veniam. Necessitatibus repellat itaque, hic rerum quo fugit obcaecati ab atque quod esse eum enim praesentium distinctio error recusandae nam dignissimos magnam cum minima quidem consequatur consectetur voluptatum. Ea quod in consequuntur nesciunt velit voluptas quisquam totam architecto deleniti et, non placeat eius laborum, quos sit sequi doloribus a itaque asperiores ratione mollitia repellendus.
+                          </p>
+                      </div>
+                  </div>
+                  <!--What we Do-->
+                  <div class="col-sm m-2 section-box">
+                      <div class="row text-center">
+                          <div class="col text-center">
+                             <h2 class="heading-color">What We Do <!--<i class="fa fa-question" aria-hidden="true"></i>-->  </h2>
+                          </div>
+                      </div>
+                      <!--Build Applications-->
+                      <div class="row m-3">
+                          <div class="col-sm">
+                             <h4 class="heading-color text-center"> <!--<i class="fa fa-code" aria-hidden="true"></i>-->  Build Applications</h4>
+                          </div>
+                      </div>
+                      <div class="row m-3">
+                          <div class="col-sm-9 offset-sm-2">
+                              <div class="card Theme p-2">
+                                  <p class="text-white text-center">
+                                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum est dolor corporis atque inventore vero reprehenderit porro aliquam tenetur enim, amet fugit repudiandae non odio facere molestiae iure nesciunt magnam.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <!--Tools-->
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <div class="row">
+                             <div class="col-sm-12">
+                               <h4 class="heading-color text-center">Our tools</h4>
+                             </div>
+                          </div>
+                          <div class="col-sm-12">
+                            <div class="row">
+                               <div class="col">
+                                   <div class="row">
+                                       <div class="col text-center">
+                                         <span> <!--<i class="fab fa-wordpress icon-size link-color" aria-hidden="true"></i>--> </span>
+                                       </div>
+                                   </div>
+                                  <div class="row">
+                                      <div class="col text-center">
+                                        <p class="text-center text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
+                                      </div>
+                                  </div>
+                               </div>
+                               <div class="col-sm-12 col-lg-3">
+                                   <div class="row">
+                                       <div class="col text-center">
+                                         <span> <!--<i class="fab fa-laravel icon-size link-color" aria-hidden="true"></i>--> </span>
+                                       </div>
+                                   </div>
+                                  <div class="row">
+                                      <div class="col text-center">
+                                        <p class="text-center text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
+                                      </div>
+                                  </div>
+                               </div>  
+                               <div class="col-sm-12 col-lg-3">
+                                   <div class="row">
+                                       <div class="col text-center">
+                                         <span> <!--<i class="fab fa-bootstrap icon-size link-color" aria-hidden="true"></i>--> </span>
+                                       </div>
+                                   </div>
+                                  <div class="row">
+                                      <div class="col text-center">
+                                        <p class="text-center text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
+                                      </div>
+                                  </div>
+                               </div> 
+                               <div class="col-sm-12 col-lg-3">
+                                   <div class="row">
+                                       <div class="col text-center">
+                                         <span> <!--<i class="fab fa-vuejs icon-size link-color" aria-hidden="true"></i>--> </span>
+                                       </div>
+                                   </div>
+                                  <div class="row">
+                                      <div class="col text-center">
+                                        <p class="text-center text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
+                                      </div>
+                                  </div>
+                               </div> 
+                               <div class="col-sm-12 m-1 text-center">
+                                 <button type="button" class="btn btn-lg btn-outline-success"> <span> <!--<i class="fas fa-archive    ">  /i>--> Get a web application</span></button>
+                               </div>                                                                   
+                            </div>                       
+                          </div>
+                        </div>        
+                      </div>                      
+                      <!--Sale-->
+                      <div class="row m-3">
+                          <div class="col-sm">
+                             <h4 class="heading-color text-center"> <!--<i class="fas fa-money-bill-wave    "></i>-->  We sale The Applications</h4>
+                          </div>
+                      </div>                      
+                      <div class="row m-3">
+                          <div class="col-sm-9 offset-sm-2">
+                              <div class="card Theme p-2">
+                                  <p class="text-white text-center">
+                                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum est dolor corporis atque inventore vero reprehenderit porro aliquam tenetur enim, amet fugit repudiandae non odio facere molestiae iure nesciunt magnam.
+                                  </p>
+                              </div>
+                          </div>
+                      </div> 
+                      <div class="row m-3">
+                          <div class="col-sm">
+                             <h4 class="heading-color text-center">Application Price</h4>
+                          </div>                          
+                      </div>
+                      <div class="row m-3">
+                          <div class="col-sm-9 offset-sm-2">
+                            <table class="table table-hover table-dark">
+                              <thead>
+                                <tr>
+                                  <th scope="col" class="heading-color"><h3>Application Type</h3></th>
+                                  <th scope="col" class="heading-color"><h3>Price</h3></th>
+                                  <th scope="col" class="heading-color"><h3></h3></th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr class="text-success">
+                                  <td><!--<i class="fas fa-chess-pawn icon-size     "></i>--> <span class="price-tbl-textsize">Basic</span> </td>
+                                  <td>300$</td>
+                                  <td>@mdo</td>
+                                </tr>
+                                <tr class="text-primary">
+                                  <td><!--<i class="fas fa-chess-rook icon-size     "></i>-->  <span class="price-tbl-textsize">Standard</span></td>
+                                  <td>600$</td>
+                                  <td>@fat</td>
+                                </tr>
+                                <tr class="Pro-color">
+                                  <td ><!--<i class="fas fa-crown icon-size "></i> -->  <span class="price-tbl-textsize"> Pro </span></td>
+                                  <td>900$</td>
+                                  <td>@fat</td>
+                                </tr>                                
+                              </tbody>
+                            </table>                           
+                          </div>
+                      </div>
+                      <!--Application hosting-->
+                      <div class="row m-3">
+                          <div class="col-sm">
+                             <h4 class="heading-color text-center"> <!--<i class="fa fa-server" aria-hidden="true"></i>-->  We host Web Application</h4>
+                          </div>
+                      </div>                      
+                      <div class="row m-3">
+                          <div class="col-sm-9 offset-sm-2">
+                              <div class="card Theme p-2">
+                                  <p class="text-white text-center">
+                                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum est dolor corporis atque inventore vero reprehenderit porro aliquam tenetur enim, amet fugit repudiandae non odio facere molestiae iure nesciunt magnam.
+                                  </p>
+                              </div>
+                          </div>
+                      </div> 
+                      <!--Application fix-->
+                      <div class="row m-3">
+                          <div class="col-sm">
+                             <h4 class="heading-color text-center"> <!--<i class="fa fa-cogs" aria-hidden="true"></i>-->  We fix Web Application Problems</h4>
+                          </div>
+                      </div>                      
+                      <div class="row m-3">
+                          <div class="col-sm-9 offset-sm-2">
+                              <div class="card Theme p-2">
+                                  <p class="text-white text-center">
+                                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum est dolor corporis atque inventore vero reprehenderit porro aliquam tenetur enim, amet fugit repudiandae non odio facere molestiae iure nesciunt magnam.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>                                                                                        
+                  </div>
+              </div>              
+          </div>
+      </div>
+   </div>
+ </div>

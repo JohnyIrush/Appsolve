@@ -1,0 +1,38 @@
+php artisan serve
+php artisan cache:clear
+php artisan config:clear
+php artisan config:cache
+php artisan migrate:fresh
+php artisan migrate:rollback
+php artisan make:controller CategoriesController -r
+php artisan make:controller ProductsController -r
+php artisan make:controller SolutionsController -r
+php artisan route:list
+php artisan make:model Pages -m
+php artisan make:migration create_role_user_table
+php artisan make:seed SolutionsSeeder
+php artisan db:seed
+php artisan make:migration create_foreign_key_for_role_user_table --table=role_user
+php artisan make:migration create_foreign_key_for_page_sections_table --table=page_sections
+npm run watch
+exit
+php artisan help make:mail
+php artisan make:mail WelcomeMail -m
+php artisan make:mail WelcomeMail -m emails.welcome
+php artisan make:model \\StaticCms\\AppPages -m
+php artisan make:model DynamicCms\\Applications -m
+
+php artisan make:factory ContentFactory
+
+ALTER TABLE AUTO_INCREMENT =1
+
+php artisan make:migration add_discount_to_applications_table --table=applications
+php artisan help make:migration
+
+php artisan migrate
+
+php artisan make:migration create_applications_customer 
+
+php artisan make:factory SolutionsFactory
+
+php artisan make:resource Solution

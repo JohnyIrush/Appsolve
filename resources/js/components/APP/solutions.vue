@@ -1,0 +1,343 @@
+<template>
+ <div id="solution" class="Theme m-1">
+     <!--header-->
+   <div class="col-sm-12 col-md-12 col-xs-12">
+    <div class="row justify-content-center">
+     <div class="col-sm-12 col-md-12 col-xs-12">
+       <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+         <div class="carousel-inner">
+           <div class="carousel-item img-carousel-height active" data-interval="10000">
+             <img src="Images/guidesolutions.jpg" class="d-block img-height w-100" alt="...">
+           </div>
+           <div class="carousel-item img-carousel-height" data-interval="2000">
+             <img src="Images/illuminated-city.jpg" class="d-block img-height w-100" alt="...">
+           </div>
+           <div class="carousel-item img-carousel-height">
+             <img src="Images/cyber-security.jpg" class="d-block img-height w-100" alt="...">
+           </div>
+         </div>
+       </div>         
+     </div>          
+    </div>
+    <div class="row justify-content-center">
+      <div id="header-bg-overlay" class="col-sm-12 col-md-12 col-xs-12">
+         <div class="row mt-5">
+             <div class="slide-in-up col-sm col-md col-xs text-center">
+                 <h1 class="heading-color"> <span> <i class="fa fa-cogs" aria-hidden="true"></i>Fix your computer </span> </h1>
+             </div>
+         </div>
+         <div class="row slide-in-up justify-content-center mt-5">
+             <div class="col-sm-10 col-xs-12">
+                 <p class="text-white text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ducimus, magni eaque nemo voluptas dolorum cumque ipsum aperiam ea optio omnis beatae veritatis sequi excepturi. </p>
+             </div>
+         </div>
+         <div class="row slide-in-up justify-content-center mt-5">
+             <div class="col-sm-7 text-center">
+               <form action="">
+                   <div id="search-bar" class="form-group">
+                      <input id="form-input" type="text" class="form-control  search-engines" placeholder="search solutions">
+                      <input id="form-btn" class="btn search-btn heading-color Theme search-engines" type="submit" value="Search">
+                   </div>                   
+               </form>
+             </div>
+         </div>
+      </div> 
+    </div>       
+   </div> 
+   <!--Posts-->
+   <div class="col-sm-12 col-md-12 col-xs-12 mt-5">
+       <div class="row justify-content-center">
+           <div class="col-sm-9 p-0 post-height">
+             <div class="card Theme">
+               <div class="card-header">
+                 <h1 class="heading-color heading-style">Posts</h1>
+               </div>
+                <div class="card-body">
+                  <p class="text-white text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque assumenda voluptatibus fuga ducimus, dolores pariatur velit ad tempore officia magnam debitis? Nobis dolorem suscipit laudantium ullam praesentium iusto officiis quaerat, maxime aliquid. Dicta, architecto. Voluptates rem repellendus veritatis aperiam, iusto sunt placeat voluptatem, ad dolorum consequatur rerum vitae error numquam sint, quidem odit facere neque autem maxime quos obcaecati doloribus necessitatibus fugiat? Quod voluptatem aperiam possimus in deleniti eaque nemo fuga nobis, natus dolorum assumenda a architecto est ab vel adipisci explicabo asperiores incidunt repudiandae. Sint itaque quas, est tempora accusamus quidem quasi vel amet placeat, consequatur excepturi, culpa libero ratione veritatis quis! Ad sint eligendi perspiciatis repudiandae velit sunt ipsa illo libero aliquid explicabo, molestiae ut qui quae repellat maxime voluptatibus animi dignissimos labore sit quam accusamus magni necessitatibus impedit? Veniam quae hic alias adipisci earum nam quisquam, accusamus illo doloribus, tempore unde minima. Numquam, eius! At cum minus aperiam? Nostrum, deserunt illum vel iusto architecto ad labore earum consectetur alias eveniet, dolor sit possimus in voluptate ut dolores? Doloremque ea numquam dolores eum aperiam earum fugiat cumque optio in quae ipsa suscipit, odit cum natus repellat maiores fuga enim voluptatibus, dolor necessitatibus nulla quidem. Nostrum cumque illo expedita. Rem asperiores maiores labore quod. Eveniet reiciendis rerum modi delectus dignissimos vero incidunt fuga iure molestias voluptate deserunt dolores asperiores quam, aut a, autem, reprehenderit debitis. Consequatur fugit aspernatur fuga eum itaque suscipit, temporibus, doloremque iure ducimus eaque odit nisi esse repudiandae minus quod recusandae illum nobis, rerum dolorem dolores neque? Quis ducimus totam, ullam facilis reprehenderit soluta rem at quod voluptatem eos, eligendi est distinctio voluptatum aliquam sit modi id temporibus aut, veniam nam nihil voluptatibus animi necessitatibus. Aspernatur quibusdam iusto facere. Placeat fugiat voluptatum ipsam, asperiores quas deleniti at delectus repellendus, maiores minus error quos eaque vitae, quidem ducimus temporibus veritatis dolorum voluptas. Necessitatibus voluptatum omnis adipisci error, est eaque porro aliquid ad architecto repellat nostrum maxime. Cupiditate earum adipisci pariatur veniam. Distinctio, odio? Officiis exercitationem, iste ut sed suscipit delectus nesciunt nostrum recusandae culpa quis numquam quidem vero dignissimos incidunt illo quibusdam enim necessitatibus, commodi, consequatur itaque vitae quod qui deserunt quisquam. In laborum voluptatum exercitationem. Illo recusandae nam suscipit non ipsa eveniet at vero nesciunt? Labore, voluptatibus eius. Minima reiciendis, assumenda deleniti repellat dicta neque, aut porro quia itaque cum cumque numquam architecto quibusdam rem quaerat totam nam odio harum. Dolorum dolores itaque voluptates provident natus minus exercitationem corrupti! Aperiam voluptatibus nesciunt repudiandae similique eaque. Non iusto consectetur quam dolorum accusamus expedita, doloremque, enim modi officiis tempora eligendi doloribus placeat. Laboriosam soluta aspernatur iusto quae optio cum tempore! Distinctio aut vel illo praesentium at aspernatur deleniti architecto commodi quisquam nesciunt ducimus non tempore nobis fugiat, voluptate earum culpa tenetur ipsam tempora! Voluptas error quos delectus recusandae adipisci dignissimos molestiae, tempore fuga? In velit iste tenetur distinctio quibusdam at, deserunt qui aliquid, aspernatur laboriosam laborum mollitia molestiae nostrum hic dolorem labore magni. Quidem, quaerat dolor? Quaerat soluta quas nobis, iusto asperiores incidunt doloremque culpa? Ad, accusamus deleniti.
+                  </p>
+                </div>
+                  <div class="card-footer">
+                    <div class="row justify-content-center" >
+                      <div class="col-sm-3 col-md-3 col-xs-3">
+                        <button @click="editpost(solution.id)" type="button" class="btn btn-outline-primary"> <span> <i class="fas fa-edit    "></i> Edit Post</span> </button>
+                      </div>
+                      <div class="col-sm-3 col-md-3 col-xs-3">
+                        <button type="button" class="btn btn-outline-danger"> <span> <i class="fa fa-trash" aria-hidden="true"></i> Delete Post</span> </button>
+                      </div>
+                      <div class="col-sm-3 col-md-3 col-xs-3">
+                        <div class="btn link-color"><span><i class="fa fa-thumbs-up icon-size" aria-hidden="true"></i> Likes</span> </div>
+                      </div>
+                      <div class="col-sm-3 col-md-3 col-xs-3">
+                        <button class="btn link-color"> <span> <i class="fa fa-comments icon-size" aria-hidden="true"></i>comment</span> </button>
+                      </div>
+                    </div>
+                    <div class="row mt-4 Theme">
+                      <div class="col-sm-12 col-md-12 col-xs-12 row justify-content-center">
+                        <nav aria-label="Page navigation example">
+                         
+                        </nav>                        
+                      </div>
+                    </div>
+                  </div>                                                                 
+             </div>
+           </div>
+        <div class="col-sm-3 p-0 post-height">
+          <div class="card Theme text-white">
+           <h1>Latest posts</h1>  
+           <div class="card m-2 Theme" >
+             <div class="card-title"> <a href="" class="link-color">  </a> </div>
+             <img src="Images" alt="" class="img-fluid">
+             <div class="card-text text-white"> Lorem ipsum dolor sit amet consectetur adipisicing eli  </div>
+           </div> 
+           <div class="card m-2 Theme" >
+             <div class="card-title"> <a href="" class="link-color"> Lorem ipsum dolor sit. </a> </div>
+             <img src="Images\space-shuttle.jpg" class="img-fluid" alt="" srcset="">
+             <div class="card-text text-white"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore praesentium unde eveniet obcaecati in </div>
+           </div>
+           <div class="card m-2 Theme" >
+             <div class="card-title"> <a href="" class="link-color"> Lorem ipsum dolor sit. </a> </div>
+              <img src="Images\betterlife.jpg" class="img-fluid" alt="" srcset="">
+             <div class="card-text text-white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim unde nemo quos nesciunt iure, obcv </div>
+           </div>
+           <div class="card m-2 Theme" >
+             <div class="card-title"> <a href="" class="link-color"> Lorem ipsum dolor sit  </a> </div>
+             <img src="Images\comp.jpg" class="img-fluid" alt="" srcset="">
+             <div class="card-text text-white"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, hic exercitationem amet non ut cupiditate ve </div>
+           </div>
+           <div class="card m-2 Theme" >
+             <div class="card-title"> <a href="" class="link-color"> Lorem ipsum dolo </a> </div>
+              <img src="Images\contact.jpg" class="img-fluid" alt="" srcset="">
+             <div class="card-text text-white"> Lorem ipsum dolor sit a. </div>
+           </div>
+           <div class="card m-2 Theme" >
+             <div class="card-title"> <a href="" class="link-color"> Lorem, ipsum dolor  </a> </div>
+             <img src="Images\illuminated-city.jpg" class="img-fluid" alt="" srcset="">
+             <div class="card-text text-white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitati  </div>
+           </div>                     
+          </div>
+        </div>
+       </div>
+   </div>
+   <!--Top Charts--> 
+   <div class="col-sm-12 mt-4">
+     <div class="row justify-content-center">
+       <div class="col">
+         <h1 class="heading-color text-center"> Top Charts </h1>
+       </div>
+     </div>
+     <div class="row justify-content-center">
+       <div class="col">
+        <div class="card Theme">
+          <img src="Images\illuminated-city.jpg" class="img-fluid" alt="" srcset="">
+        </div>
+       </div>
+       <div class="col">
+        <div class="card Theme">
+          <img src="Images\contact.jpg" class="img-fluid" alt="" srcset="">
+        </div>         
+       </div> 
+       <div class="col">
+        <div class="card Theme">
+          <img src="Images\comp.jpg" class="img-fluid" alt="" srcset="">
+        </div>         
+       </div>              
+     </div>
+     <div class="row justify-content-center">
+       <div class="col">
+        <div class="card Theme">
+          <img src="Images\betterlife.jpg" class="img-fluid" alt="" srcset="">
+        </div>
+       </div>
+       <div class="col">
+        <div class="card Theme">
+          <img src="Images\space-shuttle.jpg" class="img-fluid" alt="" srcset="">
+        </div>         
+       </div> 
+       <div class="col">
+        <div class="card Theme">
+          <img src="Images\keyboard.jpg" class="img-fluid" alt="" srcset="">
+        </div>         
+       </div>              
+     </div>     
+   </div>
+
+ </div>
+</template>
+
+<script>
+
+    export default {
+      name: 'solutions',
+      components:{
+
+      },
+      data() {
+        return {
+              solutions: {},
+              latest: [],
+              editblogs: []
+        }
+      },
+      methods: {
+        /**
+         * Launch editor and pass
+         * Post
+        */
+        editpost(id){
+         window.localStorage.setItem('blogeid',id);
+           axios.get('/displaypost/' + id)
+           .then((response)=>{
+             this.editblogs = response.data;
+             console.log(this.editblogs);
+             this.$Editor.editblogdata(this.editblogs.post);
+           })
+           .catch((error)=>{
+             console.log(error);
+           })
+           window.location.assign('http://127.0.0.1:8000/#/editor');
+        },
+        getlatestposts(){
+           axios.get('/latest')
+           .then((response)=>{
+             this.latest =  response.data;
+           })
+           .catch((error)=>{
+             console.log(error);
+           })
+        },
+        getposts(){        
+           axios.get('/posts')
+           .then((response)=>{
+             this.solutions = response.data.data;
+             console.log(this.solutions);
+           })
+           .catch((error)=>{
+             console.log(error);
+           })
+        },
+        UfQueryMessage(){
+          setTimeout(()=>{
+          this.$swal({
+          title: '',
+          text: "Did you Find what You Were Looking For",
+          icon: 'question',
+          showCancelButton: true,
+          confirmButtonColor: '#3085d6',
+          cancelButtonText: 'No',
+          confirmButtonText: 'Yes I Found it'
+        }).then((result) => {
+          if (result.value) {
+            this.$swal(
+              'Thank You For Your Feedback',
+              'We will Continue doing The Great Job',
+              'success'
+            )
+          }
+          else{
+         this.$swal({
+           title: 'Perform Advanced Search Here',
+           input: 'text',
+           inputAttributes: {
+             autocapitalize: 'off'
+           },
+           showCancelButton: true,
+           confirmButtonText: 'Look up',
+           showLoaderOnConfirm: true,
+           preConfirm: (login) => {
+             return fetch(`//api.github.com/users/${login}`)
+               .then(response => {
+                 if (!response.ok) {
+                   throw new Error(response.statusText)
+                 }
+                 return response.json()
+               })
+               .catch(error => {
+                 Swal.showValidationMessage(
+                   `Request failed: ${error}`
+                 )
+               })
+           },
+           allowOutsideClick: () => !Swal.isLoading()
+         }).then((result) => {
+           if (result.value) {
+             Swal.fire({
+               title: `${result.value.login}'s avatar`,
+               imageUrl: result.value.avatar_url
+             })
+           }
+         })
+          }
+        });
+          },5000)
+          
+        }
+      },
+      mounted() {
+        this.getposts();
+        this.getlatestposts();
+        Event.$on('updatesols',()=>{
+          $('#updatesolution').modal('show');
+        
+        })
+      },
+    }
+</script>
+<style scoped>
+
+#header-bg-overlay{
+    float: inline-start;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    background-color: rgba(139, 139, 184,0.7);
+}
+
+.img-carousel-height{
+    height: 70vh;
+}
+
+.img-height{
+    height: 100%;
+}
+
+.post-height{
+    min-height: 50vh;
+}
+
+.search-engines{
+display: inline;
+}
+
+#search-bar{
+display: flex;
+}
+
+#form-input{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#form-btn{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.slide-in-up{
+   
+    animation: moveup 5s ; 
+    animation-delay: 3s;
+}
+
+/* Chrome, Safari, Opera */
+@keyframes moveup {
+    from {margin-bottom: 100px;}
+    to {margin-top: 1px;}
+}
+
+@-webkit-keyframes moveup {
+    from {margin-bottom: 100px;}
+    to {margin-top: 1px;}
+}
+</style>
