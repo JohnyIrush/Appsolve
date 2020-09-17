@@ -3284,7 +3284,7 @@ __webpack_require__.r(__webpack_exports__);
       $('#category_type').modal('show');
     });
     /**
-     * Listen to application 
+     * Listen to application
      * buying event
     */
 
@@ -11017,7 +11017,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n#load-window[data-v-49be2ccb]{\r\n  height: 40vh;\n}\r\n\r\n", ""]);
+exports.push([module.i, "\n#load-window[data-v-49be2ccb]{\n  height: 40vh;\n}\n#app-bg[data-v-49be2ccb]{\nbackground-color: rgb(22, 22, 44);\n}\n", ""]);
 
 // exports
 
@@ -52286,7 +52286,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "container-fluid m-0" },
+    { staticClass: "container-fluid m-0", attrs: { id: "app-bg" } },
     [
       _c("navbar", { attrs: { app: this } }),
       _vm._v(" "),
