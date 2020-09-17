@@ -1,10 +1,8 @@
 <template>
 <div class="container-fluid m-0" >
   <navbar :app="this" ></navbar>
-  <div id="load-window">
-  </div>
-    <div v-if="loading" class="spinner-grow text-primary" role="status">
-      <span class="sr-only">Loading...</span>
+    <div id="load-window" v-if="loading" >
+      
     </div>
     <div v-else-if="initiated">
       <router-view class="page-pos" :app="this" ></router-view>

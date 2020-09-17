@@ -3139,8 +3139,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 
 
@@ -52159,17 +52157,8 @@ var render = function() {
     [
       _c("navbar", { attrs: { app: this } }),
       _vm._v(" "),
-      _c("div", { attrs: { id: "load-window" } }),
-      _vm._v(" "),
       _vm.loading
-        ? _c(
-            "div",
-            {
-              staticClass: "spinner-grow text-primary",
-              attrs: { role: "status" }
-            },
-            [_c("span", { staticClass: "sr-only" }, [_vm._v("Loading...")])]
-          )
+        ? _c("div", { attrs: { id: "load-window" } })
         : _vm.initiated
         ? _c(
             "div",
