@@ -2,7 +2,7 @@
 <div class="container-fluid m-0" >
   <navbar :app="this" ></navbar>
     <div id="load-window" v-if="loading" >
-      
+      <logo_load></logo_load>
     </div>
     <div v-else-if="initiated">
       <router-view class="page-pos" :app="this" ></router-view>
@@ -39,6 +39,7 @@ import SaveChanges from '../Editor/SaveChanges.vue'
 import createpost from './CMS/createpost.vue';
 import editpost from './CMS/editpost';
 import categorytypeeditor from './CMS/categorytypeeditor.vue'; //create and assign post categories
+import logo_load from './logo_load.vue';
 
     export default {
       name: 'app',
@@ -56,7 +57,8 @@ import categorytypeeditor from './CMS/categorytypeeditor.vue'; //create and assi
         SaveChanges,
         createpost,
         editpost,
-        categorytypeeditor
+        categorytypeeditor,
+        logo_load
       },
       data() {
         return {
