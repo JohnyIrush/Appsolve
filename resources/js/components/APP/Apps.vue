@@ -37,19 +37,19 @@
                   </div>
                   <div class="card-footer">
                     <div class="row">
-                      <div class="col-xs col-sm">
-                         <button @click="TestApp(app.location)" type="button" class="btn btn-outline-primary">View App</button>
+                      <div class="col-xs-12 col-sm-12">
+                         <button @click="TestApp(app.location)" type="button" class="btn btn-primary">View</button>
                       </div> 
-                      <div class="col-xs col-sm">
-                         <button @click="Buyapp(app.id)" type="button" class="btn btn-outline-success"><span> <!--<i class="fas fa-money-bill-wave    "></i>--> Buy App</span></button>
+                      <div class="col-xs-12 col-sm-12">
+                         <button @click="Buyapp(app.id)" type="button" class="btn btn-success"><span> <!--<i class="fas fa-money-bill-wave    "></i>--> Buy</span></button>
                       </div>                                           
                     </div>
                     <div class="row mt-2">
-                      <div class="col-xs col-sm">
-                         <button @click="editProduct(app.id)" type="button" class="btn btn-outline-primary"><span> <!--<i class="fa fa-edit text-white" aria-hidden="true"></i>--> Edit</span></button>
+                      <div class="col-xs-12 col-sm-12">
+                         <button @click="editProduct(app.id)" type="button" class="btn btn-primary"><span> <!--<i class="fa fa-edit text-white" aria-hidden="true"></i>--> Edit</span></button>
                       </div>
-                      <div class="col-xs col-sm">
-                         <button @click="deleteProduct(app.id)" type="button" class="btn btn-outline-danger"><span> <!--<i class="fa fa-trash text-white" aria-hidden="true"></i>--> Delete</span></button>
+                      <div class="col-xs-12 col-sm-12">
+                         <button @click="deleteProduct(app.id)" type="button" class="btn btn-danger"><span> <!--<i class="fa fa-trash text-white" aria-hidden="true"></i>--> Delete</span></button>
                       </div>                        
                     </div>
                   </div>                  

@@ -52451,71 +52451,87 @@ var render = function() {
                             _vm._v(" "),
                             _c("div", { staticClass: "card-footer" }, [
                               _c("div", { staticClass: "row" }, [
-                                _c("div", { staticClass: "col-xs col-sm" }, [
-                                  _c(
-                                    "button",
-                                    {
-                                      staticClass: "btn btn-outline-primary",
-                                      attrs: { type: "button" },
-                                      on: {
-                                        click: function($event) {
-                                          return _vm.TestApp(app.location)
+                                _c(
+                                  "div",
+                                  { staticClass: "col-xs-12 col-sm-12" },
+                                  [
+                                    _c(
+                                      "button",
+                                      {
+                                        staticClass: "btn btn-primary",
+                                        attrs: { type: "button" },
+                                        on: {
+                                          click: function($event) {
+                                            return _vm.TestApp(app.location)
+                                          }
                                         }
-                                      }
-                                    },
-                                    [_vm._v("View App")]
-                                  )
-                                ]),
+                                      },
+                                      [_vm._v("View")]
+                                    )
+                                  ]
+                                ),
                                 _vm._v(" "),
-                                _c("div", { staticClass: "col-xs col-sm" }, [
-                                  _c(
-                                    "button",
-                                    {
-                                      staticClass: "btn btn-outline-success",
-                                      attrs: { type: "button" },
-                                      on: {
-                                        click: function($event) {
-                                          return _vm.Buyapp(app.id)
+                                _c(
+                                  "div",
+                                  { staticClass: "col-xs-12 col-sm-12" },
+                                  [
+                                    _c(
+                                      "button",
+                                      {
+                                        staticClass: "btn btn-success",
+                                        attrs: { type: "button" },
+                                        on: {
+                                          click: function($event) {
+                                            return _vm.Buyapp(app.id)
+                                          }
                                         }
-                                      }
-                                    },
-                                    [_c("span", [_vm._v(" Buy App")])]
-                                  )
-                                ])
+                                      },
+                                      [_c("span", [_vm._v(" Buy")])]
+                                    )
+                                  ]
+                                )
                               ]),
                               _vm._v(" "),
                               _c("div", { staticClass: "row mt-2" }, [
-                                _c("div", { staticClass: "col-xs col-sm" }, [
-                                  _c(
-                                    "button",
-                                    {
-                                      staticClass: "btn btn-outline-primary",
-                                      attrs: { type: "button" },
-                                      on: {
-                                        click: function($event) {
-                                          return _vm.editProduct(app.id)
+                                _c(
+                                  "div",
+                                  { staticClass: "col-xs-12 col-sm-12" },
+                                  [
+                                    _c(
+                                      "button",
+                                      {
+                                        staticClass: "btn btn-primary",
+                                        attrs: { type: "button" },
+                                        on: {
+                                          click: function($event) {
+                                            return _vm.editProduct(app.id)
+                                          }
                                         }
-                                      }
-                                    },
-                                    [_c("span", [_vm._v(" Edit")])]
-                                  )
-                                ]),
+                                      },
+                                      [_c("span", [_vm._v(" Edit")])]
+                                    )
+                                  ]
+                                ),
                                 _vm._v(" "),
-                                _c("div", { staticClass: "col-xs col-sm" }, [
-                                  _c(
-                                    "button",
-                                    {
-                                      staticClass: "btn btn-outline-danger",
-                                      attrs: { type: "button" },
-                                      on: {
-                                        click: function($event) {
-                                          return _vm.deleteProduct(app.id)
+                                _c(
+                                  "div",
+                                  { staticClass: "col-xs-12 col-sm-12" },
+                                  [
+                                    _c(
+                                      "button",
+                                      {
+                                        staticClass: "btn btn-danger",
+                                        attrs: { type: "button" },
+                                        on: {
+                                          click: function($event) {
+                                            return _vm.deleteProduct(app.id)
+                                          }
                                         }
-                                      }
-                                    },
-                                    [_c("span", [_vm._v(" Delete")])]
-                                  )
-                                ])
+                                      },
+                                      [_c("span", [_vm._v(" Delete")])]
+                                    )
+                                  ]
+                                )
                               ])
                             ])
                           ])
