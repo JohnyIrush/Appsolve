@@ -52453,7 +52453,7 @@ var render = function() {
                               _c("div", { staticClass: "row" }, [
                                 _c(
                                   "div",
-                                  { staticClass: "col-xs-12 col-sm-12" },
+                                  { staticClass: "col-xs-6 col-sm-6" },
                                   [
                                     _c(
                                       "button",
@@ -52473,7 +52473,7 @@ var render = function() {
                                 _vm._v(" "),
                                 _c(
                                   "div",
-                                  { staticClass: "col-xs-12 col-sm-12" },
+                                  { staticClass: "col-xs-6 col-sm-6" },
                                   [
                                     _c(
                                       "button",
@@ -52495,7 +52495,7 @@ var render = function() {
                               _c("div", { staticClass: "row mt-2" }, [
                                 _c(
                                   "div",
-                                  { staticClass: "col-xs-12 col-sm-12" },
+                                  { staticClass: "col-xs-6 col-sm-6" },
                                   [
                                     _c(
                                       "button",
@@ -52515,7 +52515,7 @@ var render = function() {
                                 _vm._v(" "),
                                 _c(
                                   "div",
-                                  { staticClass: "col-xs-12 col-sm-12" },
+                                  { staticClass: "col-xs-6 col-sm-6" },
                                   [
                                     _c(
                                       "button",
