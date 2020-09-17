@@ -93,7 +93,7 @@
               <div  class="col-sm col-md col-xs">
                   <div class="row">
                       <div class="col text-center">
-                        <span> <!--<i class="fab fa-wordpress icon-size link-color" aria-hidden="true"></i>--> </span>
+                        <span> <i class="fab fa-wordpress icon-size link-color" aria-hidden="true"></i> </span>
                       </div>
                   </div>
                  <div class="row">
@@ -105,7 +105,7 @@
               <div class="col-md-12 col-xs-12 col-sm-12 col-lg-3  ">
                   <div class="row">
                       <div class="col text-center">
-                        <span> <!--<i class="fab fa-laravel icon-size link-color" aria-hidden="true"></i>--> </span>
+                        <span> <i class="fab fa-laravel icon-size link-color" aria-hidden="true"></i> </span>
                       </div>
                   </div>
                  <div class="row">
@@ -117,7 +117,7 @@
               <div class="col-sm-12 col-lg-3  ">
                   <div class="row">
                       <div class="col text-center">
-                        <span> <!--<i class="fab fa-bootstrap icon-size link-color" aria-hidden="true"></i>--> </span>
+                        <span> <i class="fab fa-bootstrap icon-size link-color" aria-hidden="true"></i> </span>
                       </div>
                   </div>
                  <div class="row">
@@ -129,7 +129,7 @@
               <div class="col-sm-12 col-lg-3  ">
                   <div class="row">
                       <div class="col text-center">
-                        <span> <!--<i class="fab fa-vuejs icon-size link-color" aria-hidden="true"></i>--> </span>
+                        <span> <i class="fab fa-vuejs icon-size link-color" aria-hidden="true"></i> </span>
                       </div>
                   </div>
                  <div class="row">
@@ -155,7 +155,7 @@
         <div class="col-sm-12  col-md-12 col-xs-12 col-lg-4 slide-right">
            <div class="row">
                <div class="col-sm col-md col-xs text-center ">
-                   <h1 class="heading-color"><span>  <!--<i class="fab fa-wordpress"></i>--> ordspress </span></h1>
+                   <h1 class="heading-color"><span>  <i class="fab fa-wordpress"></i> ordspress </span></h1>
                </div>
            </div>
            <div class="row">
@@ -167,7 +167,7 @@
         <div class="col-sm-12 col-md-12 col-xs-12 col-lg-4 slide-right">
            <div class="row">
                <div class="col-sm col-md col-xs text-center">
-                   <h1 class="heading-color"><span> <!--<i class="fab fa-google"></i>--> oogle </span></h1>
+                   <h1 class="heading-color"><span> <i class="fab fa-google"></i> oogle </span></h1>
                </div>
            </div>
            <div class="row">
@@ -179,7 +179,7 @@
         <div class="col-sm-12 col-md-12 col-xs-12 col-lg-4 slide-right">
            <div class="row">
                <div class="col-sm col-md col-xs text-center">
-                   <h1 class="heading-color"><span> <!--<i class="fa fa-users"></i>--> Web entreprenuers </span></h1>
+                   <h1 class="heading-color"><span> <i class="fa fa-users"></i> Web entreprenuers </span></h1>
                </div>
            </div>
            <div class="row">
@@ -199,7 +199,7 @@
         <div class="row justify-content-center">
           <div class="col-sm-12 col-md-12 col-xs-12 col-lg-8">
             <div class="row justify-content-center">
-              <img src="images/Passport.jpg" alt="" class="image-fluid  img-thumbnail text-center">
+              <img src="images/CEO.jpg" alt="" class="image-fluid ceo-size  img-thumbnail text-center">
             </div>
             <div class="row justify-content-center">
               <h3 class="heading-color">John Irungu</h3>
@@ -212,13 +212,13 @@
             </div>
             <div class="row justify-content-center">
               <a href="#" class="btn link-color">
-              <!--<i class="fab fa-linkedin icon-size m-2" aria-hidden="true"></i>-->
+              <i class="fab fa-linkedin icon-size m-2" aria-hidden="true"></i>
               </a>
               <a href="#" class="btn link-color">
-                <!--<i class="fab fa-google-plus icon-size m-2"></i>-->
+                <i class="fab fa-google-plus icon-size m-2"></i>
               </a>
               <a href="#" class="btn link-color">
-                <!--<i class="fab fa-pinterest icon-size m-2"></i>-->
+                <i class="fab fa-pinterest icon-size m-2"></i>
               </a>
             </div>
           </div>
@@ -344,5 +344,9 @@
 @-webkit-keyframes moveup2 {
     from {margin-left: -15px;}
     to {margin-left: 1px;}
+}
+.ceo-size{
+  height: 200px;
+  width: 200px;
 }
 </style>

@@ -5,7 +5,7 @@
             
             <a class="navbar-brand link-color logo" to="/">
             <div class="logo-bg">
-              <img src="Images/logo.png" class="img-fluid p-1 pb-1 logo" alt="" srcset="">
+              <img src="Images/Appsolve.png" class="img-fluid p-1 pb-1 logo" alt="" srcset="">
             </div>
             </a>
              <button @click="settings()"  type="button" class="btn btn-primary" data-toggle="modal" data-target="#sidebar">

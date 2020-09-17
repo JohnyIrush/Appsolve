@@ -14,8 +14,6 @@ class VersionsSeeder extends Seeder
     public function run()
     {
         App\Version::truncate();
-        DB::table('applications_version')->truncate();
-        DB::table('services_version')->truncate();
         App\Version::create(['version'=>'Basic']);
         App\Version::create(['version'=>'Standard']);
         App\Version::create(['version'=>'Pro']);

@@ -11115,7 +11115,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.img-carousel-height[data-v-24443ef8]{\r\n    height: 70vh;\n}\n.img-height[data-v-24443ef8]{\r\n    height: 100%;\n}\n#seo-header[data-v-24443ef8]{\r\n    float: inline-start;\r\n    position: absolute;\r\n    top: 0px;\r\n    height: 75vh;\r\n    height: 100%;\r\n    background-color: rgba(139, 139, 184,0.7);\n}\n.font-size[data-v-24443ef8]{\r\n    font-size: 18px;\n}\n.btn-color[data-v-24443ef8]{\r\n    background-color: turquoise;\n}\r\n/*Heading style*/\n.heading-style[data-v-24443ef8]{\r\n  font-size: 36px;\r\n  font-weight: 900;\r\n  text-decoration: underline;\n}\r\n/*Contrast sections*/\n.section-box[data-v-24443ef8]{\r\n  box-shadow: 3px 3px 3px white;\n}\r\n\r\n\r\n/**\r\n*Annimate carousel bg-overlay\r\n*upwards\r\n*/\n.header-slide-in-up[data-v-24443ef8]{\r\n    position: relative;\r\n    -webkit-animation: moveup-data-v-24443ef8 5s;\r\n            animation: moveup-data-v-24443ef8 5s; \r\n    -webkit-animation-delay: 1s; \r\n            animation-delay: 1s;\n}\r\n\r\n/* Chrome, Safari, Opera */\n@keyframes moveup-data-v-24443ef8 {\nfrom {margin-bottom: 100px;}\nto {margin-top: 1px;}\n}\n@-webkit-keyframes moveup-data-v-24443ef8 {\nfrom {margin-bottom: 100px;}\nto {margin-top: 1px;}\n}\r\n/**\r\n*annimate heading from left\r\n*/\n.heading-slide-right[data-v-24443ef8]{\r\n    -webkit-animation: slide-right-data-v-24443ef8 5s;\r\n            animation: slide-right-data-v-24443ef8 5s; \r\n    -webkit-animation-delay: 1s; \r\n            animation-delay: 1s;\n}\r\n\r\n/* Chrome, Safari, Opera */\n@keyframes slide-right-data-v-24443ef8 {\nfrom {margin-bottom: 100px;}\nto {margin-top: 1px;}\n}\n@-webkit-keyframes slide-right-data-v-24443ef8 {\nfrom {left: 0px;}\nto {right: 200px;}\n}\r\n/**\r\n*Slide Up Solutions \r\n*advert section\r\n*/\n.slide-right[data-v-24443ef8]{\r\n    -webkit-animation: moveup2-data-v-24443ef8 4s;\r\n            animation: moveup2-data-v-24443ef8 4s; \r\n    -webkit-animation-delay: 0s; \r\n            animation-delay: 0s;\n}\r\n/* Chrome, Safari, Opera */\n@keyframes moveup2-data-v-24443ef8 {\nfrom {margin-left: -15px;}\nto {margin-left: 0px;}\n}\n@-webkit-keyframes moveup2-data-v-24443ef8 {\nfrom {margin-left: -15px;}\nto {margin-left: 1px;}\n}\r\n", ""]);
+exports.push([module.i, "\n.img-carousel-height[data-v-24443ef8]{\r\n    height: 70vh;\n}\n.img-height[data-v-24443ef8]{\r\n    height: 100%;\n}\n#seo-header[data-v-24443ef8]{\r\n    float: inline-start;\r\n    position: absolute;\r\n    top: 0px;\r\n    height: 75vh;\r\n    height: 100%;\r\n    background-color: rgba(139, 139, 184,0.7);\n}\n.font-size[data-v-24443ef8]{\r\n    font-size: 18px;\n}\n.btn-color[data-v-24443ef8]{\r\n    background-color: turquoise;\n}\r\n/*Heading style*/\n.heading-style[data-v-24443ef8]{\r\n  font-size: 36px;\r\n  font-weight: 900;\r\n  text-decoration: underline;\n}\r\n/*Contrast sections*/\n.section-box[data-v-24443ef8]{\r\n  box-shadow: 3px 3px 3px white;\n}\r\n\r\n\r\n/**\r\n*Annimate carousel bg-overlay\r\n*upwards\r\n*/\n.header-slide-in-up[data-v-24443ef8]{\r\n    position: relative;\r\n    -webkit-animation: moveup-data-v-24443ef8 5s;\r\n            animation: moveup-data-v-24443ef8 5s; \r\n    -webkit-animation-delay: 1s; \r\n            animation-delay: 1s;\n}\r\n\r\n/* Chrome, Safari, Opera */\n@keyframes moveup-data-v-24443ef8 {\nfrom {margin-bottom: 100px;}\nto {margin-top: 1px;}\n}\n@-webkit-keyframes moveup-data-v-24443ef8 {\nfrom {margin-bottom: 100px;}\nto {margin-top: 1px;}\n}\r\n/**\r\n*annimate heading from left\r\n*/\n.heading-slide-right[data-v-24443ef8]{\r\n    -webkit-animation: slide-right-data-v-24443ef8 5s;\r\n            animation: slide-right-data-v-24443ef8 5s; \r\n    -webkit-animation-delay: 1s; \r\n            animation-delay: 1s;\n}\r\n\r\n/* Chrome, Safari, Opera */\n@keyframes slide-right-data-v-24443ef8 {\nfrom {margin-bottom: 100px;}\nto {margin-top: 1px;}\n}\n@-webkit-keyframes slide-right-data-v-24443ef8 {\nfrom {left: 0px;}\nto {right: 200px;}\n}\r\n/**\r\n*Slide Up Solutions \r\n*advert section\r\n*/\n.slide-right[data-v-24443ef8]{\r\n    -webkit-animation: moveup2-data-v-24443ef8 4s;\r\n            animation: moveup2-data-v-24443ef8 4s; \r\n    -webkit-animation-delay: 0s; \r\n            animation-delay: 0s;\n}\r\n/* Chrome, Safari, Opera */\n@keyframes moveup2-data-v-24443ef8 {\nfrom {margin-left: -15px;}\nto {margin-left: 0px;}\n}\n@-webkit-keyframes moveup2-data-v-24443ef8 {\nfrom {margin-left: -15px;}\nto {margin-left: 1px;}\n}\n.ceo-size[data-v-24443ef8]{\r\n  height: 200px;\r\n  width: 200px;\n}\r\n", ""]);
 
 // exports
 
@@ -50553,7 +50553,11 @@ var render = function() {
                       _c("div", { staticClass: "logo-bg" }, [
                         _c("img", {
                           staticClass: "img-fluid logo",
-                          attrs: { src: "Images/logo.png", alt: "", srcset: "" }
+                          attrs: {
+                            src: "Images/Appsolve.png",
+                            alt: "",
+                            srcset: ""
+                          }
                         })
                       ])
                     ]
@@ -51416,7 +51420,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "logo-bg" }, [
           _c("img", {
             staticClass: "img-fluid p-1 pb-1 logo",
-            attrs: { src: "Images/logo.png", alt: "", srcset: "" }
+            attrs: { src: "Images/Appsolve.png", alt: "", srcset: "" }
           })
         ])
       ]
@@ -54178,7 +54182,13 @@ var staticRenderFns = [
               _c("div", { staticClass: "row mt-5" }, [
                 _c("div", { staticClass: "col text-center" }, [
                   _c("h1", { staticClass: "heading-color" }, [
-                    _c("span", [_vm._v(" Our Services ")])
+                    _c("span", [
+                      _c("i", {
+                        staticClass: "fa fa-cogs",
+                        attrs: { "aria-hidden": "true" }
+                      }),
+                      _vm._v(" Our Services ")
+                    ])
                   ])
                 ])
               ]),
@@ -54210,6 +54220,10 @@ var staticRenderFns = [
             _c("div", { staticClass: "row slide-in-up" }, [
               _c("div", { staticClass: "col-sm" }, [
                 _c("h2", { staticClass: "text-center heading-color" }, [
+                  _c("i", {
+                    staticClass: "fa fa-cogs",
+                    attrs: { "aria-hidden": "true" }
+                  }),
                   _vm._v("  Computer Solutions")
                 ])
               ]),
@@ -54241,7 +54255,11 @@ var staticRenderFns = [
                 _c("div", { staticClass: "row text-center " }, [
                   _c("div", { staticClass: "col text-center" }, [
                     _c("h2", { staticClass: "heading-color titles-bg" }, [
-                      _vm._v("What We Do ")
+                      _vm._v("What We Do  "),
+                      _c("i", {
+                        staticClass: "fa fa-question",
+                        attrs: { "aria-hidden": "true" }
+                      })
                     ])
                   ])
                 ]),
@@ -54249,6 +54267,7 @@ var staticRenderFns = [
                 _c("div", { staticClass: "row m-3" }, [
                   _c("div", { staticClass: "col-sm" }, [
                     _c("h4", { staticClass: "heading-color text-center" }, [
+                      _c("i", { staticClass: "fas fa-desktop    " }),
                       _vm._v("  Research computer Problems")
                     ])
                   ])
@@ -54269,6 +54288,7 @@ var staticRenderFns = [
                 _c("div", { staticClass: "row m-3" }, [
                   _c("div", { staticClass: "col-sm" }, [
                     _c("h4", { staticClass: "heading-color text-center" }, [
+                      _c("i", { staticClass: "fas fa-procedures    " }),
                       _vm._v("  We guide you on how to fix The problems")
                     ])
                   ])
@@ -54291,6 +54311,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "row mb-2 mt-2 " }, [
               _c("div", { staticClass: "col-sm" }, [
                 _c("h2", { staticClass: "text-center heading-color" }, [
+                  _c("i", { staticClass: "fas fa-project-diagram    " }),
                   _vm._v("  Sofware Development")
                 ])
               ]),
@@ -54330,6 +54351,10 @@ var staticRenderFns = [
                 _c("div", { staticClass: "row m-3" }, [
                   _c("div", { staticClass: "col-sm" }, [
                     _c("h4", { staticClass: "heading-color text-center" }, [
+                      _c("i", {
+                        staticClass: "fa fa-code",
+                        attrs: { "aria-hidden": "true" }
+                      }),
                       _vm._v("  Build Applications")
                     ])
                   ])
@@ -54362,7 +54387,13 @@ var staticRenderFns = [
                         _c("div", { staticClass: "col" }, [
                           _c("div", { staticClass: "row" }, [
                             _c("div", { staticClass: "col text-center" }, [
-                              _c("span")
+                              _c("span", [
+                                _c("i", {
+                                  staticClass:
+                                    "fab fa-wordpress icon-size link-color",
+                                  attrs: { "aria-hidden": "true" }
+                                })
+                              ])
                             ])
                           ]),
                           _vm._v(" "),
@@ -54384,7 +54415,13 @@ var staticRenderFns = [
                         _c("div", { staticClass: "col-sm-12 col-lg-3" }, [
                           _c("div", { staticClass: "row" }, [
                             _c("div", { staticClass: "col text-center" }, [
-                              _c("span")
+                              _c("span", [
+                                _c("i", {
+                                  staticClass:
+                                    "fab fa-laravel icon-size link-color",
+                                  attrs: { "aria-hidden": "true" }
+                                })
+                              ])
                             ])
                           ]),
                           _vm._v(" "),
@@ -54406,7 +54443,13 @@ var staticRenderFns = [
                         _c("div", { staticClass: "col-sm-12 col-lg-3" }, [
                           _c("div", { staticClass: "row" }, [
                             _c("div", { staticClass: "col text-center" }, [
-                              _c("span")
+                              _c("span", [
+                                _c("i", {
+                                  staticClass:
+                                    "fab fa-bootstrap icon-size link-color",
+                                  attrs: { "aria-hidden": "true" }
+                                })
+                              ])
                             ])
                           ]),
                           _vm._v(" "),
@@ -54428,7 +54471,13 @@ var staticRenderFns = [
                         _c("div", { staticClass: "col-sm-12 col-lg-3" }, [
                           _c("div", { staticClass: "row" }, [
                             _c("div", { staticClass: "col text-center" }, [
-                              _c("span")
+                              _c("span", [
+                                _c("i", {
+                                  staticClass:
+                                    "fab fa-vuejs icon-size link-color",
+                                  attrs: { "aria-hidden": "true" }
+                                })
+                              ])
                             ])
                           ]),
                           _vm._v(" "),
@@ -54469,6 +54518,7 @@ var staticRenderFns = [
                 _c("div", { staticClass: "row m-3" }, [
                   _c("div", { staticClass: "col-sm" }, [
                     _c("h4", { staticClass: "heading-color text-center" }, [
+                      _c("i", { staticClass: "fas fa-money-bill-wave    " }),
                       _vm._v("  We sale The Applications")
                     ])
                   ])
@@ -54534,6 +54584,10 @@ var staticRenderFns = [
                         _c("tbody", [
                           _c("tr", { staticClass: "text-success" }, [
                             _c("td", [
+                              _c("i", {
+                                staticClass: "fas fa-chess-pawn icon-size     "
+                              }),
+                              _vm._v(" "),
                               _c(
                                 "span",
                                 { staticClass: "price-tbl-textsize" },
@@ -54548,6 +54602,10 @@ var staticRenderFns = [
                           _vm._v(" "),
                           _c("tr", { staticClass: "text-primary" }, [
                             _c("td", [
+                              _c("i", {
+                                staticClass: "fas fa-chess-rook icon-size     "
+                              }),
+                              _vm._v(" "),
                               _c(
                                 "span",
                                 { staticClass: "price-tbl-textsize" },
@@ -54562,6 +54620,10 @@ var staticRenderFns = [
                           _vm._v(" "),
                           _c("tr", { staticClass: "Pro-color" }, [
                             _c("td", [
+                              _c("i", {
+                                staticClass: "fas fa-crown icon-size "
+                              }),
+                              _vm._v(" "),
                               _c(
                                 "span",
                                 { staticClass: "price-tbl-textsize" },
@@ -54582,6 +54644,10 @@ var staticRenderFns = [
                 _c("div", { staticClass: "row m-3" }, [
                   _c("div", { staticClass: "col-sm" }, [
                     _c("h4", { staticClass: "heading-color text-center" }, [
+                      _c("i", {
+                        staticClass: "fa fa-server",
+                        attrs: { "aria-hidden": "true" }
+                      }),
                       _vm._v("  We host Web Application")
                     ])
                   ])
@@ -54602,6 +54668,10 @@ var staticRenderFns = [
                 _c("div", { staticClass: "row m-3" }, [
                   _c("div", { staticClass: "col-sm" }, [
                     _c("h4", { staticClass: "heading-color text-center" }, [
+                      _c("i", {
+                        staticClass: "fa fa-cogs",
+                        attrs: { "aria-hidden": "true" }
+                      }),
                       _vm._v("  We fix Web Application Problems")
                     ])
                   ])
@@ -55397,7 +55467,14 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-sm col-md col-xs" }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col text-center" }, [_c("span")])
+        _c("div", { staticClass: "col text-center" }, [
+          _c("span", [
+            _c("i", {
+              staticClass: "fab fa-wordpress icon-size link-color",
+              attrs: { "aria-hidden": "true" }
+            })
+          ])
+        ])
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "row" }, [
@@ -55420,7 +55497,14 @@ var staticRenderFns = [
       { staticClass: "col-md-12 col-xs-12 col-sm-12 col-lg-3  " },
       [
         _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col text-center" }, [_c("span")])
+          _c("div", { staticClass: "col text-center" }, [
+            _c("span", [
+              _c("i", {
+                staticClass: "fab fa-laravel icon-size link-color",
+                attrs: { "aria-hidden": "true" }
+              })
+            ])
+          ])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "row" }, [
@@ -55441,7 +55525,14 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-sm-12 col-lg-3  " }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col text-center" }, [_c("span")])
+        _c("div", { staticClass: "col text-center" }, [
+          _c("span", [
+            _c("i", {
+              staticClass: "fab fa-bootstrap icon-size link-color",
+              attrs: { "aria-hidden": "true" }
+            })
+          ])
+        ])
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "row" }, [
@@ -55461,7 +55552,14 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-sm-12 col-lg-3  " }, [
       _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col text-center" }, [_c("span")])
+        _c("div", { staticClass: "col text-center" }, [
+          _c("span", [
+            _c("i", {
+              staticClass: "fab fa-vuejs icon-size link-color",
+              attrs: { "aria-hidden": "true" }
+            })
+          ])
+        ])
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "row" }, [
@@ -55506,7 +55604,10 @@ var staticRenderFns = [
                   { staticClass: "col-sm col-md col-xs text-center " },
                   [
                     _c("h1", { staticClass: "heading-color" }, [
-                      _c("span", [_vm._v(" ordspress ")])
+                      _c("span", [
+                        _c("i", { staticClass: "fab fa-wordpress" }),
+                        _vm._v(" ordspress ")
+                      ])
                     ])
                   ]
                 )
@@ -55533,7 +55634,10 @@ var staticRenderFns = [
               _c("div", { staticClass: "row" }, [
                 _c("div", { staticClass: "col-sm col-md col-xs text-center" }, [
                   _c("h1", { staticClass: "heading-color" }, [
-                    _c("span", [_vm._v(" oogle ")])
+                    _c("span", [
+                      _c("i", { staticClass: "fab fa-google" }),
+                      _vm._v(" oogle ")
+                    ])
                   ])
                 ])
               ]),
@@ -55559,7 +55663,10 @@ var staticRenderFns = [
               _c("div", { staticClass: "row" }, [
                 _c("div", { staticClass: "col-sm col-md col-xs text-center" }, [
                   _c("h1", { staticClass: "heading-color" }, [
-                    _c("span", [_vm._v(" Web entreprenuers ")])
+                    _c("span", [
+                      _c("i", { staticClass: "fa fa-users" }),
+                      _vm._v(" Web entreprenuers ")
+                    ])
                   ])
                 ])
               ]),
@@ -55604,8 +55711,9 @@ var staticRenderFns = [
               [
                 _c("div", { staticClass: "row justify-content-center" }, [
                   _c("img", {
-                    staticClass: "image-fluid  img-thumbnail text-center",
-                    attrs: { src: "images/Passport.jpg", alt: "" }
+                    staticClass:
+                      "image-fluid ceo-size  img-thumbnail text-center",
+                    attrs: { src: "images/CEO.jpg", alt: "" }
                   })
                 ]),
                 _vm._v(" "),
@@ -55628,20 +55736,32 @@ var staticRenderFns = [
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "row justify-content-center" }, [
-                  _c("a", {
-                    staticClass: "btn link-color",
-                    attrs: { href: "#" }
-                  }),
+                  _c(
+                    "a",
+                    { staticClass: "btn link-color", attrs: { href: "#" } },
+                    [
+                      _c("i", {
+                        staticClass: "fab fa-linkedin icon-size m-2",
+                        attrs: { "aria-hidden": "true" }
+                      })
+                    ]
+                  ),
                   _vm._v(" "),
-                  _c("a", {
-                    staticClass: "btn link-color",
-                    attrs: { href: "#" }
-                  }),
+                  _c(
+                    "a",
+                    { staticClass: "btn link-color", attrs: { href: "#" } },
+                    [
+                      _c("i", {
+                        staticClass: "fab fa-google-plus icon-size m-2"
+                      })
+                    ]
+                  ),
                   _vm._v(" "),
-                  _c("a", {
-                    staticClass: "btn link-color",
-                    attrs: { href: "#" }
-                  })
+                  _c(
+                    "a",
+                    { staticClass: "btn link-color", attrs: { href: "#" } },
+                    [_c("i", { staticClass: "fab fa-pinterest icon-size m-2" })]
+                  )
                 ])
               ]
             )
@@ -56436,230 +56556,239 @@ var render = function() {
       }
     },
     [
-      _c("div", { staticClass: "modal-dialog", attrs: { role: "document" } }, [
-        _c("div", { staticClass: "modal-content Theme" }, [
-          _c("div", { staticClass: "modal-header" }, [
-            _c(
-              "h5",
-              {
-                staticClass: "modal-title heading-color",
-                attrs: { id: "exampleModalLabel" }
-              },
-              [_vm._v("Create Account")]
-            ),
-            _vm._v(" "),
-            _c(
-              "button",
-              {
-                staticClass: "close",
-                attrs: { type: "button" },
-                on: {
-                  click: function($event) {
-                    return _vm.LaunchLogin()
+      _c(
+        "div",
+        {
+          staticClass: "modal-dialog modal-dialog-scrollable",
+          attrs: { role: "document" }
+        },
+        [
+          _c("div", { staticClass: "modal-content Theme" }, [
+            _c("div", { staticClass: "modal-header" }, [
+              _c(
+                "h5",
+                {
+                  staticClass: "modal-title heading-color",
+                  attrs: { id: "exampleModalLabel" }
+                },
+                [_vm._v("Create Account")]
+              ),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "close",
+                  attrs: { type: "button" },
+                  on: {
+                    click: function($event) {
+                      return _vm.LaunchLogin()
+                    }
                   }
-                }
-              },
-              [
-                _c(
-                  "span",
-                  {
-                    staticClass: "text-danger",
-                    attrs: { "aria-hidden": "true" }
-                  },
-                  [_vm._v("×")]
-                )
-              ]
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "modal-body" }, [
-            _c("div", { staticClass: "container" }, [
-              _c("div", { staticClass: "card Theme" }, [
-                _c("div", { staticClass: "card-header heading-color" }, [
-                  _vm._v("\r\n                   Register \r\n                ")
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "card-body" }, [
-                  _c("div", { staticClass: "col-md-12" }, [
-                    _c(
-                      "form",
-                      {
-                        on: {
-                          submit: function($event) {
-                            $event.preventDefault()
-                            return _vm.handleSumit($event)
-                          }
-                        }
-                      },
-                      [
-                        _vm.errors.length
-                          ? _c("div", { staticClass: "alert alert-danger" }, [
-                              _c(
-                                "ul",
-                                { staticClass: "mb-0" },
-                                _vm._l(_vm.errors, function(error, index) {
-                                  return _c("li", { key: index }, [
-                                    _vm._v(_vm._s(error))
-                                  ])
-                                }),
-                                0
-                              )
-                            ])
-                          : _vm._e(),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "form-group" }, [
-                          _c(
-                            "label",
-                            {
-                              staticClass: "text-white",
-                              attrs: { for: "name" }
-                            },
-                            [_vm._v("Name")]
-                          ),
-                          _vm._v(" "),
-                          _c("input", {
-                            directives: [
-                              {
-                                name: "model",
-                                rawName: "v-model",
-                                value: _vm.name,
-                                expression: "name"
-                              }
-                            ],
-                            staticClass: "form-control",
-                            attrs: { type: "text", placeholder: "Name" },
-                            domProps: { value: _vm.name },
-                            on: {
-                              input: function($event) {
-                                if ($event.target.composing) {
-                                  return
-                                }
-                                _vm.name = $event.target.value
-                              }
-                            }
-                          })
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "form-group" }, [
-                          _c(
-                            "label",
-                            {
-                              staticClass: "text-white",
-                              attrs: { for: "email" }
-                            },
-                            [_vm._v("email address")]
-                          ),
-                          _vm._v(" "),
-                          _c("input", {
-                            directives: [
-                              {
-                                name: "model",
-                                rawName: "v-model",
-                                value: _vm.email,
-                                expression: "email"
-                              }
-                            ],
-                            staticClass: "form-control",
-                            attrs: {
-                              type: "text",
-                              placeholder: "email address"
-                            },
-                            domProps: { value: _vm.email },
-                            on: {
-                              input: function($event) {
-                                if ($event.target.composing) {
-                                  return
-                                }
-                                _vm.email = $event.target.value
-                              }
-                            }
-                          })
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "form-group" }, [
-                          _c(
-                            "label",
-                            {
-                              staticClass: "text-white",
-                              attrs: { for: "password" }
-                            },
-                            [_vm._v("password")]
-                          ),
-                          _vm._v(" "),
-                          _c("input", {
-                            directives: [
-                              {
-                                name: "model",
-                                rawName: "v-model",
-                                value: _vm.password,
-                                expression: "password"
-                              }
-                            ],
-                            staticClass: "form-control",
-                            attrs: {
-                              type: "password",
-                              placeholder: "password"
-                            },
-                            domProps: { value: _vm.password },
-                            on: {
-                              input: function($event) {
-                                if ($event.target.composing) {
-                                  return
-                                }
-                                _vm.password = $event.target.value
-                              }
-                            }
-                          })
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "form-group" }, [
-                          _c(
-                            "label",
-                            {
-                              staticClass: "text-white",
-                              attrs: { for: "password again" }
-                            },
-                            [_vm._v("password again")]
-                          ),
-                          _vm._v(" "),
-                          _c("input", {
-                            directives: [
-                              {
-                                name: "model",
-                                rawName: "v-model",
-                                value: _vm.password_again,
-                                expression: "password_again"
-                              }
-                            ],
-                            staticClass: "form-control",
-                            attrs: {
-                              type: "password",
-                              placeholder: "password again"
-                            },
-                            domProps: { value: _vm.password_again },
-                            on: {
-                              input: function($event) {
-                                if ($event.target.composing) {
-                                  return
-                                }
-                                _vm.password_again = $event.target.value
-                              }
-                            }
-                          })
-                        ]),
-                        _vm._v(" "),
-                        _vm._m(0)
-                      ]
+                },
+                [
+                  _c(
+                    "span",
+                    {
+                      staticClass: "text-danger",
+                      attrs: { "aria-hidden": "true" }
+                    },
+                    [_vm._v("×")]
+                  )
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "modal-body" }, [
+              _c("div", { staticClass: "container" }, [
+                _c("div", { staticClass: "card Theme" }, [
+                  _c("div", { staticClass: "card-header heading-color" }, [
+                    _vm._v(
+                      "\r\n                   Register \r\n                "
                     )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("div", { staticClass: "col-md-12" }, [
+                      _c(
+                        "form",
+                        {
+                          on: {
+                            submit: function($event) {
+                              $event.preventDefault()
+                              return _vm.handleSumit($event)
+                            }
+                          }
+                        },
+                        [
+                          _vm.errors.length
+                            ? _c("div", { staticClass: "alert alert-danger" }, [
+                                _c(
+                                  "ul",
+                                  { staticClass: "mb-0" },
+                                  _vm._l(_vm.errors, function(error, index) {
+                                    return _c("li", { key: index }, [
+                                      _vm._v(_vm._s(error))
+                                    ])
+                                  }),
+                                  0
+                                )
+                              ])
+                            : _vm._e(),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "form-group" }, [
+                            _c(
+                              "label",
+                              {
+                                staticClass: "text-white",
+                                attrs: { for: "name" }
+                              },
+                              [_vm._v("Name")]
+                            ),
+                            _vm._v(" "),
+                            _c("input", {
+                              directives: [
+                                {
+                                  name: "model",
+                                  rawName: "v-model",
+                                  value: _vm.name,
+                                  expression: "name"
+                                }
+                              ],
+                              staticClass: "form-control",
+                              attrs: { type: "text", placeholder: "Name" },
+                              domProps: { value: _vm.name },
+                              on: {
+                                input: function($event) {
+                                  if ($event.target.composing) {
+                                    return
+                                  }
+                                  _vm.name = $event.target.value
+                                }
+                              }
+                            })
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "form-group" }, [
+                            _c(
+                              "label",
+                              {
+                                staticClass: "text-white",
+                                attrs: { for: "email" }
+                              },
+                              [_vm._v("email address")]
+                            ),
+                            _vm._v(" "),
+                            _c("input", {
+                              directives: [
+                                {
+                                  name: "model",
+                                  rawName: "v-model",
+                                  value: _vm.email,
+                                  expression: "email"
+                                }
+                              ],
+                              staticClass: "form-control",
+                              attrs: {
+                                type: "text",
+                                placeholder: "email address"
+                              },
+                              domProps: { value: _vm.email },
+                              on: {
+                                input: function($event) {
+                                  if ($event.target.composing) {
+                                    return
+                                  }
+                                  _vm.email = $event.target.value
+                                }
+                              }
+                            })
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "form-group" }, [
+                            _c(
+                              "label",
+                              {
+                                staticClass: "text-white",
+                                attrs: { for: "password" }
+                              },
+                              [_vm._v("password")]
+                            ),
+                            _vm._v(" "),
+                            _c("input", {
+                              directives: [
+                                {
+                                  name: "model",
+                                  rawName: "v-model",
+                                  value: _vm.password,
+                                  expression: "password"
+                                }
+                              ],
+                              staticClass: "form-control",
+                              attrs: {
+                                type: "password",
+                                placeholder: "password"
+                              },
+                              domProps: { value: _vm.password },
+                              on: {
+                                input: function($event) {
+                                  if ($event.target.composing) {
+                                    return
+                                  }
+                                  _vm.password = $event.target.value
+                                }
+                              }
+                            })
+                          ]),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "form-group" }, [
+                            _c(
+                              "label",
+                              {
+                                staticClass: "text-white",
+                                attrs: { for: "password again" }
+                              },
+                              [_vm._v("password again")]
+                            ),
+                            _vm._v(" "),
+                            _c("input", {
+                              directives: [
+                                {
+                                  name: "model",
+                                  rawName: "v-model",
+                                  value: _vm.password_again,
+                                  expression: "password_again"
+                                }
+                              ],
+                              staticClass: "form-control",
+                              attrs: {
+                                type: "password",
+                                placeholder: "password again"
+                              },
+                              domProps: { value: _vm.password_again },
+                              on: {
+                                input: function($event) {
+                                  if ($event.target.composing) {
+                                    return
+                                  }
+                                  _vm.password_again = $event.target.value
+                                }
+                              }
+                            })
+                          ]),
+                          _vm._v(" "),
+                          _vm._m(0)
+                        ]
+                      )
+                    ])
                   ])
                 ])
               ])
-            ])
-          ]),
-          _vm._v(" "),
-          _vm._m(1)
-        ])
-      ])
+            ]),
+            _vm._v(" "),
+            _vm._m(1)
+          ])
+        ]
+      )
     ]
   )
 }
@@ -78616,8 +78745,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Lastchance\frameworks\Business\Appsolve\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Lastchance\frameworks\Business\Appsolve\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Bitnami\wampstack-7.4.10-0\frameworks\Bussiness\Appsolve\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Bitnami\wampstack-7.4.10-0\frameworks\Bussiness\Appsolve\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ }),

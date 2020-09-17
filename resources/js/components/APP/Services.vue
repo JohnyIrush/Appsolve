@@ -13,7 +13,7 @@
       <div id="header-bg-overlay" class="col-sm-12">
          <div class="row mt-5">
              <div class="col text-center">
-                 <h1 class="heading-color"> <span> <!--<i class="fa fa-cogs" aria-hidden="true"></i>--> Our Services </span> </h1>
+                 <h1 class="heading-color"> <span> <i class="fa fa-cogs" aria-hidden="true"></i> Our Services </span> </h1>
              </div>
          </div>
          <div class="row justify-content-center mt-5 header-slide-in-up">
@@ -30,7 +30,7 @@
           <div class="col-sm-12 mb-2 mt-2">
               <div class="row slide-in-up"> 
                   <div class="col-sm">
-                      <h2 class="text-center heading-color"> <!--<i class="fa fa-cogs" aria-hidden="true"></i>-->  Computer Solutions</h2>
+                      <h2 class="text-center heading-color"> <i class="fa fa-cogs" aria-hidden="true"></i>  Computer Solutions</h2>
                   </div>
                   <div class="row slide-in-up">
                       <div class="col-sm">
@@ -48,13 +48,13 @@
                   <div class="col-sm m-2 section-box">
                       <div class="row text-center ">
                           <div class="col text-center">
-                             <h2 class="heading-color titles-bg">What We Do <!-- <i class="fa fa-question" aria-hidden="true"></i>--> </h2>
+                             <h2 class="heading-color titles-bg">What We Do  <i class="fa fa-question" aria-hidden="true"></i> </h2>
                           </div>
                       </div>
                       <!--Research-->
                       <div class="row m-3">
                           <div class="col-sm">
-                             <h4 class="heading-color text-center"> <!--<i class="fas fa-desktop    "></i>-->  Research computer Problems</h4>
+                             <h4 class="heading-color text-center"> <i class="fas fa-desktop    "></i>  Research computer Problems</h4>
                           </div>
                       </div>
                       <div class="row m-3">
@@ -69,7 +69,7 @@
                       <!--Guides-->
                       <div class="row m-3">
                           <div class="col-sm">
-                             <h4 class="heading-color text-center"> <!--<i class="fas fa-procedures    "></i>-->  We guide you on how to fix The problems</h4>
+                             <h4 class="heading-color text-center"> <i class="fas fa-procedures    "></i>  We guide you on how to fix The problems</h4>
                           </div>
                       </div>                      
                       <div class="row m-3">
@@ -85,7 +85,7 @@
               </div>
               <div class="row mb-2 mt-2 ">
                   <div class="col-sm">
-                      <h2 class="text-center heading-color"> <!--<i class="fas fa-project-diagram    "></i>-->  Sofware Development</h2>
+                      <h2 class="text-center heading-color"> <i class="fas fa-project-diagram    "></i>  Sofware Development</h2>
                   </div>
                   <div class="row">
                       <div class="col-sm">
@@ -109,7 +109,7 @@
                       <!--Build Applications-->
                       <div class="row m-3">
                           <div class="col-sm">
-                             <h4 class="heading-color text-center"> <!--<i class="fa fa-code" aria-hidden="true"></i>-->  Build Applications</h4>
+                             <h4 class="heading-color text-center"> <i class="fa fa-code" aria-hidden="true"></i>  Build Applications</h4>
                           </div>
                       </div>
                       <div class="row m-3">
@@ -134,7 +134,7 @@
                                <div class="col">
                                    <div class="row">
                                        <div class="col text-center">
-                                         <span> <!--<i class="fab fa-wordpress icon-size link-color" aria-hidden="true"></i>--> </span>
+                                         <span> <i class="fab fa-wordpress icon-size link-color" aria-hidden="true"></i> </span>
                                        </div>
                                    </div>
                                   <div class="row">
@@ -146,7 +146,7 @@
                                <div class="col-sm-12 col-lg-3">
                                    <div class="row">
                                        <div class="col text-center">
-                                         <span> <!--<i class="fab fa-laravel icon-size link-color" aria-hidden="true"></i>--> </span>
+                                         <span> <i class="fab fa-laravel icon-size link-color" aria-hidden="true"></i> </span>
                                        </div>
                                    </div>
                                   <div class="row">
@@ -158,7 +158,7 @@
                                <div class="col-sm-12 col-lg-3">
                                    <div class="row">
                                        <div class="col text-center">
-                                         <span> <!--<i class="fab fa-bootstrap icon-size link-color" aria-hidden="true"></i>--> </span>
+                                         <span> <i class="fab fa-bootstrap icon-size link-color" aria-hidden="true"></i> </span>
                                        </div>
                                    </div>
                                   <div class="row">
@@ -170,7 +170,7 @@
                                <div class="col-sm-12 col-lg-3">
                                    <div class="row">
                                        <div class="col text-center">
-                                         <span> <!--<i class="fab fa-vuejs icon-size link-color" aria-hidden="true"></i>--> </span>
+                                         <span> <i class="fab fa-vuejs icon-size link-color" aria-hidden="true"></i> </span>
                                        </div>
                                    </div>
                                   <div class="row">
@@ -189,7 +189,7 @@
                       <!--Sale-->
                       <div class="row m-3">
                           <div class="col-sm">
-                             <h4 class="heading-color text-center"> <!--<i class="fas fa-money-bill-wave    "></i>-->  We sale The Applications</h4>
+                             <h4 class="heading-color text-center"> <i class="fas fa-money-bill-wave    "></i>  We sale The Applications</h4>
                           </div>
                       </div>                      
                       <div class="row m-3">
@@ -218,17 +218,17 @@
                               </thead>
                               <tbody>
                                 <tr class="text-success">
-                                  <td><!--<i class="fas fa-chess-pawn icon-size     "></i>--> <span class="price-tbl-textsize">Basic</span> </td>
+                                  <td><i class="fas fa-chess-pawn icon-size     "></i> <span class="price-tbl-textsize">Basic</span> </td>
                                   <td>300$</td>
                                   <td>@mdo</td>
                                 </tr>
                                 <tr class="text-primary">
-                                  <td><!--<i class="fas fa-chess-rook icon-size     "></i>-->  <span class="price-tbl-textsize">Standard</span></td>
+                                  <td><i class="fas fa-chess-rook icon-size     "></i>  <span class="price-tbl-textsize">Standard</span></td>
                                   <td>600$</td>
                                   <td>@fat</td>
                                 </tr>
                                 <tr class="Pro-color">
-                                  <td ><!--<i class="fas fa-crown icon-size "></i> -->  <span class="price-tbl-textsize"> Pro </span></td>
+                                  <td ><i class="fas fa-crown icon-size "></i>   <span class="price-tbl-textsize"> Pro </span></td>
                                   <td>900$</td>
                                   <td>@fat</td>
                                 </tr>                                
@@ -239,7 +239,7 @@
                       <!--Application hosting-->
                       <div class="row m-3">
                           <div class="col-sm">
-                             <h4 class="heading-color text-center"> <!--<i class="fa fa-server" aria-hidden="true"></i>-->  We host Web Application</h4>
+                             <h4 class="heading-color text-center"> <i class="fa fa-server" aria-hidden="true"></i>  We host Web Application</h4>
                           </div>
                       </div>                      
                       <div class="row m-3">
@@ -254,7 +254,7 @@
                       <!--Application fix-->
                       <div class="row m-3">
                           <div class="col-sm">
-                             <h4 class="heading-color text-center"> <!--<i class="fa fa-cogs" aria-hidden="true"></i>-->  We fix Web Application Problems</h4>
+                             <h4 class="heading-color text-center"> <i class="fa fa-cogs" aria-hidden="true"></i>  We fix Web Application Problems</h4>
                           </div>
                       </div>                      
                       <div class="row m-3">

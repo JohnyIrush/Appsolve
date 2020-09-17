@@ -6,7 +6,7 @@
           <nav class="navbar navbar-expand-md shadow-sm">
               <div class="container">
                   <router-link class="navbar-brand link-color logo" to="/">
-                   <div class="logo-bg"><img src="Images/logo.png" class="img-fluid logo" alt="" srcset=""></div>
+                   <div class="logo-bg"><img src="Images/Appsolve.png" class="img-fluid logo" alt="" srcset=""></div>
                   </router-link>
                   <a  @click="$Global.Displayprivacy()" class="nav-link link-color">Privacy Policy</a>
                   <a  @click="$Global.DisplayTerms()" class="nav-link link-color">Terms and Conditions</a>
