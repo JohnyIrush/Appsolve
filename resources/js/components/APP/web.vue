@@ -1,6 +1,8 @@
 <template>
 <div class="container-fluid m-0" >
   <navbar :app="this" ></navbar>
+  <div id="load-window">
+  </div>
     <div v-if="loading" class="spinner-grow text-primary" role="status">
       <span class="sr-only">Loading...</span>
     </div>
@@ -157,6 +159,8 @@ import categorytypeeditor from './CMS/categorytypeeditor.vue'; //create and assi
 </script>
 
 <style scoped>
-
+#load-window{
+  height: 40vh;
+}
 
 </style>
