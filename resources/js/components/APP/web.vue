@@ -1,5 +1,5 @@
 <template>
-<div class="container-fluid m-0" >
+<div id="app-bg" class="container-fluid m-0" >
   <navbar :app="this" ></navbar>
     <div id="load-window" v-if="loading" >
       <logo_load></logo_load>
@@ -15,7 +15,7 @@
   <subscribe></subscribe>
   <versionservice></versionservice>
   <createproduct></createproduct>
-  <pageform :pagedata="pagedata"></pageform> 
+  <pageform :pagedata="pagedata"></pageform>
   <createpost></createpost>
    <editpost></editpost>
    <!--create assign post type and categories-->
@@ -62,7 +62,7 @@ import logo_load from './logo_load.vue';
       },
       data() {
         return {
-          user: null, 
+          user: null,
           loading: false,
           initiated: false,
           req: axios.create({
@@ -72,7 +72,7 @@ import logo_load from './logo_load.vue';
               page_name:'',
               page_section:'',
               page_markup:'',
-             
+
             }
             ,
              editmode: false
@@ -81,7 +81,7 @@ import logo_load from './logo_load.vue';
       methods: {
         detectedit(){
         },
-        init(){ 
+        init(){
           this.loading = true;
            this.req.get('auth/init')
            .then(response=>{
@@ -111,7 +111,7 @@ import logo_load from './logo_load.vue';
             });
             Event.$on('versionservice',()=>{
              $('#versionservice').modal('show');
-            });           
+            });
            this.$Global.Displaysubscribe();
            this.$Global.PopdayManager();
           /**
@@ -122,7 +122,7 @@ import logo_load from './logo_load.vue';
            this.$Editor.editpages(page);
            this.$Editor.Page(page);
             });
-             
+
           Event.$on('createpost',()=>{
             $('#sidebar').modal('hide');
             $('#createpost').modal('show');
@@ -137,13 +137,13 @@ import logo_load from './logo_load.vue';
           })
 
           /**
-           * Listen to application 
+           * Listen to application
            * buying event
           */
          Event.$on('signin_buyer',()=>{
            if (this.user==null) {
             $('#register').modal('hide');
-            $('#login').modal('show');              
+            $('#login').modal('show');
            }
          });
          /**
@@ -152,7 +152,7 @@ import logo_load from './logo_load.vue';
          */
          Event.$on('signup_buyer',()=>{
           $('#login').modal('hide');
-          $('#register').modal('show');             
+          $('#register').modal('show');
          });
       },
     }
@@ -162,5 +162,7 @@ import logo_load from './logo_load.vue';
 #load-window{
   height: 40vh;
 }
-
+#app-bg{
+background-color: rgb(22, 22, 44);
+}
 </style>
