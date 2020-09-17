@@ -2891,6 +2891,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     $('#load-app').modal('show');
@@ -10977,7 +10979,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.main[data-v-7113739e]{\n     background-color:#242323 ;\n}\nul[data-v-7113739e]{\n     position: absolute;\n     top: 50%;\n     left: 50%;\n     transform: translate(-50%,-50%);\n     margin: 0 ;\n     padding: 0;\n     display: flex;\n}\nul li[data-v-7113739e]{\n     list-style: none;\n     font-family: 'Times New Roman', Times, serif;\n     font-size: 2em;\n     letter-spacing: 15px;\n     color:#484848;\n     text-shadow: none;\n     -webkit-animation: animate-data-v-7113739e 1s infinite linear;\n             animation: animate-data-v-7113739e 1s infinite linear;\n}\n@-webkit-keyframes animate-data-v-7113739e{\n0%{\n      transform: rotate(0deg);\n}\n100%{\n      transform: rotate(360deg);\n}\n}\n@keyframes animate-data-v-7113739e{\n0%{\n      transform: rotate(0deg);\n}\n100%{\n      transform: rotate(360deg);\n}\n}\n@keyframes animate-data-v-7113739e{\n0%{\n        color:#484848;\n        text-shadow: none;\n}\n18%{\n        color:#484848;\n        text-shadow: none;\n}\n20%{\n        color:#484848;\n        text-shadow: none;\n}\n20%{\n        color:#fff900;\n        text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;\n}\n30%{\n        color:#484848;\n        text-shadow: none;\n}\n35%{\n        color:#fff900;\n        text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;\n}\n70%{\n        color:#484848;\n        text-shadow: none;\n}\n85%{\n        color:#fff900;\n        text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;\n}\n90%{\n        color:#484848;\n        text-shadow: none;\n}\n100%{\n        color:#484848;\n        text-shadow: none;\n}\n}\nul li[data-v-7113739e]:nth-child(1){\n     -webkit-animation-delay: .2s;\n             animation-delay: .2s;\n}\nul li[data-v-7113739e]:nth-child(2){\n     -webkit-animation-delay: .2s;\n             animation-delay: .2s;\n}\nul li[data-v-7113739e]:nth-child(3){\n     -webkit-animation-delay: .4s;\n             animation-delay: .4s;\n}\nul li[data-v-7113739e]:nth-child(4){\n     -webkit-animation-delay: .6s;\n             animation-delay: .6s;\n}\nul li[data-v-7113739e]:nth-child(5){\n     -webkit-animation-delay: .8s;\n             animation-delay: .8s;\n}\nul li[data-v-7113739e]:nth-child(6){\n     -webkit-animation-delay: .10s;\n             animation-delay: .10s;\n}\n", ""]);
+exports.push([module.i, "\n.main[data-v-7113739e]{\n     background-color:#242323 ;\n}\nul[data-v-7113739e]{\n     position: absolute;\n     top: 50%;\n     left: 50%;\n     transform: translate(-50%,-50%);\n     margin: 0 ;\n     padding: 0;\n     display: flex;\n}\nul li[data-v-7113739e]{\n     list-style: none;\n     font-family: 'Times New Roman', Times, serif;\n     font-size: 2em;\n     letter-spacing: 15px;\n     color:#484848;\n     text-shadow: none;\n     -webkit-animation: animate-data-v-7113739e 1s infinite linear;\n             animation: animate-data-v-7113739e 1s infinite linear;\n}\n@-webkit-keyframes animate-data-v-7113739e{\n0%{\n      transform: rotate(0deg);\n}\n100%{\n      transform: rotate(360deg);\n}\n}\n@keyframes animate-data-v-7113739e{\n0%{\n      transform: rotate(0deg);\n}\n100%{\n      transform: rotate(360deg);\n}\n}\n@keyframes animate-data-v-7113739e{\n0%{\n        color:#484848;\n        text-shadow: none;\n}\n18%{\n        color:#484848;\n        text-shadow: none;\n}\n20%{\n        color:#484848;\n        text-shadow: none;\n}\n20%{\n        color:#fff900;\n        text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;\n}\n30%{\n        color:#484848;\n        text-shadow: none;\n}\n35%{\n        color:#fff900;\n        text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;\n}\n70%{\n        color:#484848;\n        text-shadow: none;\n}\n85%{\n        color:#fff900;\n        text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;\n}\n90%{\n        color:#484848;\n        text-shadow: none;\n}\n95%{\n        color:#484848;\n        text-shadow: none;\n}\n100%{\n        color:#484848;\n        text-shadow: none;\n}\n}\nul li[data-v-7113739e]:nth-child(1){\n     -webkit-animation-delay: .2s;\n             animation-delay: .2s;\n}\nul li[data-v-7113739e]:nth-child(2){\n     -webkit-animation-delay: .2s;\n             animation-delay: .2s;\n}\nul li[data-v-7113739e]:nth-child(3){\n     -webkit-animation-delay: .4s;\n             animation-delay: .4s;\n}\nul li[data-v-7113739e]:nth-child(4){\n     -webkit-animation-delay: .6s;\n             animation-delay: .6s;\n}\nul li[data-v-7113739e]:nth-child(5){\n     -webkit-animation-delay: .8s;\n             animation-delay: .8s;\n}\nul li[data-v-7113739e]:nth-child(6){\n     -webkit-animation-delay: .10s;\n             animation-delay: .10s;\n}\nul li[data-v-7113739e]:nth-child(7){\n     -webkit-animation-delay: .12s;\n             animation-delay: .12s;\n}\nul li[data-v-7113739e]:nth-child(8){\n     -webkit-animation-delay: .14s;\n             animation-delay: .14s;\n}\n", ""]);
 
 // exports
 
@@ -51341,17 +51343,21 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "main m-0" }, [
       _c("ul", [
-        _c("li", [_vm._v("E")]),
+        _c("li", [_vm._v("A")]),
         _vm._v(" "),
-        _c("li", [_vm._v("-")]),
+        _c("li", [_vm._v("P")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("P")]),
         _vm._v(" "),
         _c("li", [_vm._v("S")]),
         _vm._v(" "),
-        _c("li", [_vm._v("H")]),
-        _vm._v(" "),
         _c("li", [_vm._v("O")]),
         _vm._v(" "),
-        _c("li", [_vm._v("P")])
+        _c("li", [_vm._v("L")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("V")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("E")])
       ])
     ])
   }

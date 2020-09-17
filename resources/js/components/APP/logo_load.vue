@@ -1,12 +1,14 @@
 <template>
   <div class="main m-0" >
          <ul>
-            <li>E</li>
-            <li>-</li>
-            <li>S</li>
-            <li>H</li>
-            <li>O</li>
+            <li>A</li>
             <li>P</li>
+            <li>P</li>
+            <li>S</li>
+            <li>O</li>
+            <li>L</li>
+            <li>V</li>
+            <li>E</li>
         </ul>
   </div>
 </template>
@@ -99,6 +101,11 @@ export default {
            text-shadow: none;
 
         }
+        95%{
+           color:#484848;
+           text-shadow: none;
+
+        }
         100%{
            color:#484848;
            text-shadow: none;
@@ -124,5 +131,11 @@ export default {
     }
     ul li:nth-child(6){
         animation-delay: .10s;
+    }
+    ul li:nth-child(7){
+        animation-delay: .12s;
+    }
+    ul li:nth-child(8){
+        animation-delay: .14s;
     }
 </style>
