@@ -21,8 +21,8 @@
                 <router-link class="nav-link link-color link-font-size" to="/solutions">Solutions</router-link>      
                 <router-link class="nav-link link-color link-font-size" to="/apps">Apps</router-link>
                 <router-link class="nav-link link-color link-font-size" to="/blog">Blog</router-link>
-                <router-link class="nav-link link-color link-font-size" to="/services">Our Services</router-link>
-                <router-link class="nav-link link-color link-font-size" to="/about">About Us</router-link>
+                <router-link class="nav-link link-color link-font-size" to="/services">Services</router-link>
+                <router-link class="nav-link link-color link-font-size" to="/about">About</router-link>
                 </ul>                                        
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto">

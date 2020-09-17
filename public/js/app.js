@@ -51291,7 +51291,7 @@ var render = function() {
                       staticClass: "nav-link link-color link-font-size",
                       attrs: { to: "/services" }
                     },
-                    [_vm._v("Our Services")]
+                    [_vm._v("Services")]
                   ),
                   _vm._v(" "),
                   _c(
@@ -51300,7 +51300,7 @@ var render = function() {
                       staticClass: "nav-link link-color link-font-size",
                       attrs: { to: "/about" }
                     },
-                    [_vm._v("About Us")]
+                    [_vm._v("About")]
                   )
                 ],
                 1
