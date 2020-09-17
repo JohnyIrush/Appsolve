@@ -51251,14 +51251,17 @@ var render = function() {
                 [
                   _c(
                     "router-link",
-                    { staticClass: "nav-link link-color", attrs: { to: "/" } },
+                    {
+                      staticClass: "nav-link link-color link-font-size",
+                      attrs: { to: "/" }
+                    },
                     [_vm._v("Home")]
                   ),
                   _vm._v(" "),
                   _c(
                     "router-link",
                     {
-                      staticClass: "nav-link link-color",
+                      staticClass: "nav-link link-color link-font-size",
                       attrs: { to: "/solutions" }
                     },
                     [_vm._v("Solutions")]
@@ -51267,7 +51270,7 @@ var render = function() {
                   _c(
                     "router-link",
                     {
-                      staticClass: "nav-link link-color",
+                      staticClass: "nav-link link-color link-font-size",
                       attrs: { to: "/apps" }
                     },
                     [_vm._v("Apps")]
@@ -51276,7 +51279,7 @@ var render = function() {
                   _c(
                     "router-link",
                     {
-                      staticClass: "nav-link link-color",
+                      staticClass: "nav-link link-color link-font-size",
                       attrs: { to: "/blog" }
                     },
                     [_vm._v("Blog")]
@@ -51285,7 +51288,7 @@ var render = function() {
                   _c(
                     "router-link",
                     {
-                      staticClass: "nav-link link-color",
+                      staticClass: "nav-link link-color link-font-size",
                       attrs: { to: "/services" }
                     },
                     [_vm._v("Our Services")]
@@ -51294,7 +51297,7 @@ var render = function() {
                   _c(
                     "router-link",
                     {
-                      staticClass: "nav-link link-color",
+                      staticClass: "nav-link link-color link-font-size",
                       attrs: { to: "/about" }
                     },
                     [_vm._v("About Us")]

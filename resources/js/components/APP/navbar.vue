@@ -17,12 +17,12 @@
             <div class="collapse slide-menu navbar-collapse" id="navbarSupportedContent">
                 <!-- Left Side Of Navbar vue-router links -->
                 <ul class="navbar-nav mr-auto">
-                <router-link class="nav-link link-color" to="/">Home</router-link>       
-                <router-link class="nav-link link-color" to="/solutions">Solutions</router-link>      
-                <router-link class="nav-link link-color" to="/apps">Apps</router-link>
-                <router-link class="nav-link link-color" to="/blog">Blog</router-link>
-                <router-link class="nav-link link-color" to="/services">Our Services</router-link>
-                <router-link class="nav-link link-color" to="/about">About Us</router-link>
+                <router-link class="nav-link link-color link-font-size" to="/">Home</router-link>       
+                <router-link class="nav-link link-color link-font-size" to="/solutions">Solutions</router-link>      
+                <router-link class="nav-link link-color link-font-size" to="/apps">Apps</router-link>
+                <router-link class="nav-link link-color link-font-size" to="/blog">Blog</router-link>
+                <router-link class="nav-link link-color link-font-size" to="/services">Our Services</router-link>
+                <router-link class="nav-link link-color link-font-size" to="/about">About Us</router-link>
                 </ul>                                        
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto">

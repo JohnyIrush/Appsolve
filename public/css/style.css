@@ -92,3 +92,8 @@
     from {margin-bottom: 100px;}
     to {margin-top: 1px;}
 }
+
+/*Link font size*/
+.link-font-size{
+    font-size: 18;
+}
