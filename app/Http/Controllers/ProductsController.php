@@ -28,7 +28,6 @@ class ProductsController extends Controller
     public function index()
     {
         $apps = Applications::all();
-
         return response()->json($apps,200);
     }
 

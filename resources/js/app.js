@@ -28,12 +28,9 @@ Vue.component("Footer",require("./components/APP/Footer.vue").default);
 Vue.component("Terms",require("./components/APP/Terms.vue").default);
 Vue.component("privacypolicy",require("./components/APP/privacypolicy.vue").default);
 Vue.component("subscribe",require("./components/APP/Subscriber/subscribe.vue").default);
+Vue.component('editor', require('./components/Editor/Editor.vue').default); //Rich text editor for Appsolve
 
-//pagination
-Vue.use(require('vue-resource'));
  
-Vue.component('pagination', require('laravel-vue-pagination'));
-
 Vue.filter('readmore',function(value){
   return value.slice(0,100);
 });
@@ -64,12 +61,20 @@ import Swal from "vue-sweetalert2";
 Vue.use(Swal);
 
 
-import Form from "v-form";
-window.Form = Form;
 
-//import Editor
-import Editor from "./Editor/Editor.js";
+
+
+//Rich Text Editor Imports
+import Editor from '../js/components/Editor/Editor'
 Vue.prototype.$Editor = new Editor();
+
+//Media Uploader
+import Uploader from '../js/components/Editor/MediaUpload/Uploader';
+Vue.prototype.$Uploader = new Uploader();
+
+//Post Global Class
+import Post from './components/APP/CMS/Post/Posts'
+Vue.prototype.$Post = new Post();
 
 /**
  * annimation directive

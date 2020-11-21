@@ -1,5 +1,15 @@
 const mix = require('laravel-mix');
 
+var CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
+
+var webpackConfig = {
+    plugins: [
+        new CaseSensitivePathsPlugin()
+        // other plugins ...
+    ]
+    // other webpack config ...
+}
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management

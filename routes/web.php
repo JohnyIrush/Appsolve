@@ -91,7 +91,7 @@ Route::get('/assigncategory/{postid}/{categoryid}','PostController@assignCategor
 Route::get('/assigntype/{postid}/{typeid}','PostController@assignType');
 Route::get('/latest','PostController@latest');
 Route::post('/editpost/{id}','PostController@update');
-Route::post('/createpost','PostController@store');
+Route::post('/createpost','PostController@store'); //create post
 Route::get('/displaypost/{id}','PostController@show');
 Route::get('/post_type','PostController@Type');
 Route::get('/category_post','PostController@Category');

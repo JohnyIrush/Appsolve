@@ -1,14 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Posts;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-use App\Solutions;
+use App\Post;
 
-use App\S_category;
-
-class CategoriesController extends Controller
+class PostController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,7 +16,8 @@ class CategoriesController extends Controller
      */
     public function index()
     {
-        //
+        $posts = Post::all();
+        return response()->json($posts,200);
     }
 
     /**
@@ -38,11 +38,11 @@ class CategoriesController extends Controller
      */
     public function store(Request $request)
     {
-        $category = new S_category();
-        $category->category = $request->input('category');
-        $category->description = $request->input('description');
-        $category->save();
-        return response()->json(S_category::all());
+        $post = new Post();
+        $post->title = $request->title;
+        $post->image = $request->image;
+        $post->post = $request->post;
+        $post->save();
     }
 
     /**
@@ -74,11 +74,9 @@ class CategoriesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function solutions(Request $request)
+    public function update(Request $request, $id)
     {
-        $category = S_category::find(1);
-        $category->solutions()->attach(3);
-        return response()->json($category);
+        //
     }
 
     /**

@@ -7,7 +7,6 @@
     <div v-else-if="initiated">
       <router-view class="page-pos" :app="this" ></router-view>
       <Editor v-show="2==4"></Editor>
-       <SaveChanges v-show="editmode=='true'"></SaveChanges>
     </div>
   <sidebar></sidebar>
   <register :app="this"></register>
@@ -35,7 +34,6 @@ import register from '../Auth/register.vue';
 import subscribe from './Subscriber/subscribe.vue';
 import Editor from '../Editor/Editor.vue';
 import pageform from './CMS/pageform.vue';
-import SaveChanges from '../Editor/SaveChanges.vue'
 import createpost from './CMS/createpost.vue';
 import editpost from './CMS/editpost';
 import categorytypeeditor from './CMS/categorytypeeditor.vue'; //create and assign post categories
@@ -54,7 +52,6 @@ import logo_load from './logo_load.vue';
         versionservice,
         Editor,
         pageform,
-        SaveChanges,
         createpost,
         editpost,
         categorytypeeditor,

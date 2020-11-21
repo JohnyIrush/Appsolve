@@ -15,26 +15,11 @@
                  <p  class="heading-color link-sb-style link-size" data-toggle="collapse" href="#Cms" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-cogs" aria-hidden="true"></i>CMS</p>
                    <div class="collapse  multi-collapse" id="Cms">
                      <div class="col-sm"> 
-                       <!--Edit Static Pages-->
-                       <div class="btn-group">
-                         <li class="link-color dropdown-toggle link-l-size m-2" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false"><i class="fas fa-edit icon-size text-primary   "></i>Edit Pages</li> 
-                         <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left">
-                           <button class="dropdown-item link-color" type="button" @click="editpage('home')" >edit Home</button>
-                           <button class="dropdown-item link-color" type="button" @click="editpage('solution')"  >edit Solutions</button>
-                           <button class="dropdown-item link-color" type="button" @click="editpage('appsn')" >edit Apps</button>
-                           <button class="dropdown-item link-color" type="button" @click="editpage('blog')" >edit Blog</button>
-                           <button class="dropdown-item link-color" type="button" @click="editpage('service')" >edit Our Services</button>
-                           <button class="dropdown-item link-color" type="button" @click="editpage('about')" >edit About</button>
-                           <button class="dropdown-item link-color" type="button" @click="editpage('privacy')" >edit Privacy Policy</button>
-                           <button class="dropdown-item link-color" type="button" @click="editpage('Terms')" >edit Terms</button>
-                         </div>
-                       </div>
                        <!--Create Dynamic Contents--> 
                        <div class="btn-group">
                          <li class="link-color dropdown-toggle link-l-size m-2" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false"><i class="fas fa-edit icon-size text-primary   "></i>Posts</li> 
                          <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left">
-                           <button class="dropdown-item link-color" type="button" @click="createpost()" >Create Post</button>
-                           <button class="dropdown-item link-color" type="button" @click="editpage('solution')"  >edit Solutions</button>
+                           <button class="dropdown-item link-color" type="button" @click="launchEditor()" >Create Post</button>
                            <button class="dropdown-item link-color" type="button" @click="editpage('appsn')" >edit Apps</button>
                          </div>
                        </div>   
@@ -70,8 +55,9 @@ export default {
      EditCategory(){
           Event.$emit('create_assign_type_category'); 
      },
-      createpost(){
-         Event.$emit('createpost');
+      launchEditor(){
+        window.location.assign('/#/editor');
+         //Event.$emit('createpost');
       },
     editpage(page){
            Event.$emit('pagedit',page);

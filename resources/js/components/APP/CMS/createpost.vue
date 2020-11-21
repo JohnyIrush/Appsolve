@@ -1,5 +1,5 @@
 <template>
-<div class="modal fade" id="createpost" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" data-backdrop="static"  aria-hidden="true">
+<div id="createpost" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" data-backdrop="static"  aria-hidden="true">
   <div class="modal-dialog modal-dialog-scrollable" role="document">
     <div id="create-height" class="modal-content  Theme ">
       <!--Modal Header-->
@@ -8,7 +8,6 @@
         <div class="spinner-border ml-1 text-success" role="status">
           <span class="sr-only">Loading...</span>
         </div>
-        <button @click="launcheditor()"  type="button" class="btn btn-success">Create Blog</button>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -27,11 +26,6 @@
             <label  class="text-white" for="image">Post Image</label>
             <input @change="savePostImage()" id="postimage" type="file"   name="image">
           </div>
-          <!--Seo-->
-          <div class="form-group">
-            <label  class="text-white" for="price">Post Seo</label>
-            <textarea class="form-control" v-model="Seo" name="Seo" id="" cols="100" rows="6"></textarea>
-          </div>  
           <!--post--> 
           <div class="form-group">
             <label  class="text-white" for="post">post</label>
@@ -39,7 +33,6 @@
           </div>
           <!--footer-->
       <div class="modal-footer">
-        <button @click="launcheditor()"  type="button" class="btn btn-success">Create Blog</button>
         <button @click="Savepost()" type="submit" class="btn btn-primary">Create Post</button>
       </div>
         </form>
@@ -51,6 +44,7 @@
 
 <script>
 export default {
+  props: ['post'],
     data() {
         return {
             title: '',
@@ -76,32 +70,39 @@ export default {
       */
         launcheditor(){
             $('#createpost').modal('hide');
-           window.location.assign('http://127.0.0.1:8000/#/editor');
+           
            window.localStorage.clear();
         },
         Savepost(){
           const data = {
               title: this.title,
               image: this.image,
-              Seo: this.Seo,
               post: this.post
           }
-          axios.post('http://127.0.0.1:8000/createpost',data)
-          .then(()=>{
-            this.$swal({
-              position: 'top-end',
-              icon: 'success',
-              title:  'Post has been saved',
-              showConfirmButton: false,
-              timer: 3000})
-          })
+           const action = null;
+           if(editmode==true){
+               action = 'editpost';
+           }else{
+             action = 'createpost';
+           }
+          axios.post('/' + action ,data)
+              this.$swal({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Your work has been saved',
+                showConfirmButton: false,
+                timer: 1500
+              })
+              setTimeout(() => {
+                $('#edit-view').modal('show');
+
+              }, 1500)
             .catch(()=>{
              this.$swal({
                icon: 'error',
                title: 'Oops...',
                text: 'Something went wrong!',
                footer: 'Fix these errors',
-
              })
 
             })

@@ -53,9 +53,9 @@
                  <h1 class="heading-color heading-style">Posts</h1>
                </div>
                 <div class="card-body">
-                  <p class="text-white text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque assumenda voluptatibus fuga ducimus, dolores pariatur velit ad tempore officia magnam debitis? Nobis dolorem suscipit laudantium ullam praesentium iusto officiis quaerat, maxime aliquid. Dicta, architecto. Voluptates rem repellendus veritatis aperiam, iusto sunt placeat voluptatem, ad dolorum consequatur rerum vitae error numquam sint, quidem odit facere neque autem maxime quos obcaecati doloribus necessitatibus fugiat? Quod voluptatem aperiam possimus in deleniti eaque nemo fuga nobis, natus dolorum assumenda a architecto est ab vel adipisci explicabo asperiores incidunt repudiandae. Sint itaque quas, est tempora accusamus quidem quasi vel amet placeat, consequatur excepturi, culpa libero ratione veritatis quis! Ad sint eligendi perspiciatis repudiandae velit sunt ipsa illo libero aliquid explicabo, molestiae ut qui quae repellat maxime voluptatibus animi dignissimos labore sit quam accusamus magni necessitatibus impedit? Veniam quae hic alias adipisci earum nam quisquam, accusamus illo doloribus, tempore unde minima. Numquam, eius! At cum minus aperiam? Nostrum, deserunt illum vel iusto architecto ad labore earum consectetur alias eveniet, dolor sit possimus in voluptate ut dolores? Doloremque ea numquam dolores eum aperiam earum fugiat cumque optio in quae ipsa suscipit, odit cum natus repellat maiores fuga enim voluptatibus, dolor necessitatibus nulla quidem. Nostrum cumque illo expedita. Rem asperiores maiores labore quod. Eveniet reiciendis rerum modi delectus dignissimos vero incidunt fuga iure molestias voluptate deserunt dolores asperiores quam, aut a, autem, reprehenderit debitis. Consequatur fugit aspernatur fuga eum itaque suscipit, temporibus, doloremque iure ducimus eaque odit nisi esse repudiandae minus quod recusandae illum nobis, rerum dolorem dolores neque? Quis ducimus totam, ullam facilis reprehenderit soluta rem at quod voluptatem eos, eligendi est distinctio voluptatum aliquam sit modi id temporibus aut, veniam nam nihil voluptatibus animi necessitatibus. Aspernatur quibusdam iusto facere. Placeat fugiat voluptatum ipsam, asperiores quas deleniti at delectus repellendus, maiores minus error quos eaque vitae, quidem ducimus temporibus veritatis dolorum voluptas. Necessitatibus voluptatum omnis adipisci error, est eaque porro aliquid ad architecto repellat nostrum maxime. Cupiditate earum adipisci pariatur veniam. Distinctio, odio? Officiis exercitationem, iste ut sed suscipit delectus nesciunt nostrum recusandae culpa quis numquam quidem vero dignissimos incidunt illo quibusdam enim necessitatibus, commodi, consequatur itaque vitae quod qui deserunt quisquam. In laborum voluptatum exercitationem. Illo recusandae nam suscipit non ipsa eveniet at vero nesciunt? Labore, voluptatibus eius. Minima reiciendis, assumenda deleniti repellat dicta neque, aut porro quia itaque cum cumque numquam architecto quibusdam rem quaerat totam nam odio harum. Dolorum dolores itaque voluptates provident natus minus exercitationem corrupti! Aperiam voluptatibus nesciunt repudiandae similique eaque. Non iusto consectetur quam dolorum accusamus expedita, doloremque, enim modi officiis tempora eligendi doloribus placeat. Laboriosam soluta aspernatur iusto quae optio cum tempore! Distinctio aut vel illo praesentium at aspernatur deleniti architecto commodi quisquam nesciunt ducimus non tempore nobis fugiat, voluptate earum culpa tenetur ipsam tempora! Voluptas error quos delectus recusandae adipisci dignissimos molestiae, tempore fuga? In velit iste tenetur distinctio quibusdam at, deserunt qui aliquid, aspernatur laboriosam laborum mollitia molestiae nostrum hic dolorem labore magni. Quidem, quaerat dolor? Quaerat soluta quas nobis, iusto asperiores incidunt doloremque culpa? Ad, accusamus deleniti.
-                  </p>
+                <div v-html="solutions">
+                    
+                </div>
                 </div>
                   <div class="card-footer">
                     <div class="row justify-content-center" >
@@ -85,10 +85,10 @@
         <div class="col-sm-3 p-0 post-height">
           <div class="card Theme text-white">
            <h1>Latest posts</h1>  
-           <div class="card m-2 Theme" >
-             <div class="card-title"> <a href="" class="link-color">  </a> </div>
-             <img src="Images" alt="" class="img-fluid">
-             <div class="card-text text-white"> Lorem ipsum dolor sit amet consectetur adipisicing eli  </div>
+           <div class="card m-2 Theme" v-for="(latest, index) in latest" :key="index" >
+             <div class="card-title"> <a href="" class="link-color"> {{latest.title}} </a> </div>
+             <img :src="'Images/' + latest.image" alt="" class="img-fluid">
+             <div class="card-text text-white">  </div>
            </div> 
            <div class="card m-2 Theme" >
              <div class="card-title"> <a href="" class="link-color"> Lorem ipsum dolor sit. </a> </div>
@@ -176,7 +176,7 @@
         return {
               solutions: {},
               latest: [],
-              editblogs: []
+              editblogs: [],
         }
       },
       methods: {
@@ -185,17 +185,8 @@
          * Post
         */
         editpost(id){
-         window.localStorage.setItem('blogeid',id);
-           axios.get('/displaypost/' + id)
-           .then((response)=>{
-             this.editblogs = response.data;
-             console.log(this.editblogs);
-             this.$Editor.editblogdata(this.editblogs.post);
-           })
-           .catch((error)=>{
-             console.log(error);
-           })
-           window.location.assign('http://127.0.0.1:8000/#/editor');
+         this.$Post.setPostEditId(id);
+         window.location.assign('/#/editor');
         },
         getlatestposts(){
            axios.get('/latest')
